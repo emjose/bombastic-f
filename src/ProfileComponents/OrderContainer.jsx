@@ -8,7 +8,7 @@ const OrderContainer = (props) => {
         let orders = props.orders.reverse().map(order => <OrderCard key={order.order_id} order={order} pathname={props.pathname}/>)
         return (
             <div>
-                <h1 className="order-header">Your Orders:</h1>
+                <h1 className="order-header">Your Orders</h1>
                 {orders}
             </div>
         );

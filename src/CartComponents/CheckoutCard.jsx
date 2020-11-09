@@ -19,11 +19,11 @@ const CheckoutCard = (props) => {
     let total = cartTotalPrice();
     let totalWithShipping = total + (total >= 20 ? 3 : 0);
 
-    const cartTotalItem = () => {
-        if(props.userCart){
-            return props.userCart.length
-        }
-    }
+    // const cartTotalItem = () => {
+    //     if(props.userCart){
+    //         return props.userCart.length
+    //     }
+    // }
 
     const checkOutMessage = () => {
         alert("Please only enter the credit card number of 4242 4242 4242 4242 for demonstration purposes.")
@@ -65,8 +65,8 @@ const CheckoutCard = (props) => {
             <Segment>
                 <div className="checkout-info">
                     <div className="item-total-price">
-                        <p className="items-total-title">Item(s) total:</p>
-                        <p className="items-cart-total">${total ? total : total = 0}</p>
+                        <p className="items-total-title">USD total:</p>
+                        <p className="items-cart-total"> ${total ? total : total = 0}</p>
                     </div>
                     <div className="item-total-price">
                         <p className="items-shipping-title">Shipping: </p>
@@ -74,7 +74,7 @@ const CheckoutCard = (props) => {
                     </div>
                     <hr/>
                     <div className="item-total-price">
-                        <p className="total-price-title">Total: {cartTotalItem()} items</p>
+                        <p className="total-price-title">Your Total: </p>
                         <p className="cart-total-price">${totalWithShipping ? totalWithShipping : totalWithShipping = 0}</p>
                     </div>
                     <StripeCheckout 

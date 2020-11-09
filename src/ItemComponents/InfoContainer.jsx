@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import { addToCart } from '../Actions/userActions'
 import { decreaseItemQuantity } from '../Actions/itemsActions'
 import Zoom from 'react-medium-image-zoom'
+// import Zoom from 'react-reveal/Zoom';
 import 'react-medium-image-zoom/dist/styles.css'
 
 const InfoContainer = (props) => {
@@ -58,13 +59,13 @@ const InfoContainer = (props) => {
                         </Zoom>
                         <div className="item-info">
                             <h1 className="item-title-header">{item.title}</h1>
-                            <div className="average-rating-on-item">
+                            <p className="item-color-header">Color: {item.color}</p>
+                            {/* <div className="average-rating-on-item"> */}
                                 {/* <Rating icon='star' defaultRating={averageRating()} maxRating={5} disabled/> ({ratingArray()}) */}
-                            </div>
+                            {/* </div> */}
                             <p className="item-description">{item.description.length > 1000 ? item.description.slice(0, 916) : item.description}</p>
                             <p className="item-price">Price: ${item.price}</p>
                             <p className="pairs-donated">PAIRS DONATED: {item.quantity}</p>
-                            <br/>
                             {item.quantity < 1 ? <Button disabled className="add-to-cart-btn">Sold out</Button> : <Button className="add-to-cart-btn" disabled={localStorage.token ? false : true} onClick={fetchToCart}>ADD TO CART</Button>}
                         </div>
                     </div>
