@@ -37,7 +37,12 @@ const ItemCard = (props) => {
                             </Card>
                             :
                             <Card className="item-card">
-                            <Image src={props.item.image} alt="default image" wrapped ui={false}/>
+                                <div class="ui slide masked reveal image">
+                                    <img src={props.item.image} class="visible content"/>
+                                    <img src={props.item.imageb} class="hidden content"/>
+                                    <img src={props.item.imagec} class="hidden content"/>
+                                </div>
+                            {/* <Image src={props.item.image} alt="default image" wrapped ui={false}/> */}
                             <Card.Content className="item-card-content">
                             <Header>{itemTitle()}</Header>
                                 {/* <Rating icon='star' defaultRating={averageRating} maxRating={5} disabled/> */}
