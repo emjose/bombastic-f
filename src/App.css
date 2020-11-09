@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,588 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body{
+  background-color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.bombastic-logo{
+  color: #1e56f1 !important;
+  font-family: futura;
+  font-size: 4vw;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.logo{
+  background-color: #ffd725 !important;
+  font-size: 3vw !important;
+  margin-bottom: 7vh !important;
+  margin-top: -1vh !important;
+  padding-top: 3vh !important;
+  padding-bottom: 0vh !important;
+}
+
+.home-page{
+  display: flex;
+  align-items: center;
+}
+
+.filter-container{
+  width: 12vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  margin-top: 25vh;
+  margin-left: 2vw;
+  background-color: #ffffff;
+}
+
+.sort-by-input{
+  display: flex;
+  align-items: center;
+  margin-left: 1vw;
+}
+
+.sort-input-field{
+  margin-top: 1vh !important;
+}
+
+.sort-label-tag{
+  margin-left: 0.5vw;
+  margin-top: -1.5vh;
+}
+
+.all-items-container{
+  background-color: #ffffff;
+  margin-top: 7vh;
+  margin-left: 14vw !important;
+  margin-bottom: 10vh;
+}
+
+.ui.card>.image>img{
+  height: 25vh !important;
+  width: 18vw;
+}
+
+.item-card-price-header{
+  color: #000000;
+  font-size: 1.2vw;
+  margin-top: 1vh !important;
+  margin-bottom: 1vh !important;
+}
+
+.item-card-price{
+  color: #000000;
+  margin-bottom: -10vh !important;
+}
+
+.logged-in-menu-bar{
+  margin-top: -10vh !important;
+  margin-left: 75vw !important;
+  width: 19.7vw fixed !important;
+  position: absolute !important;
+  right: 0 !important;
+}
+
+#menu-bar-tags{
+  color: #000000 !important;
+}
+
+.signup-menu-bar{
+  margin-top: -10vh !important;
+  margin-left: 75vw !important;
+  width: 19.7vw fixed !important;
+  position: absolute !important;
+  right: 0 !important;
+}
+
+.sign-in{
+  color: #000000;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.sign-in:hover{
+  cursor: pointer;
+}
+
+.search-form{
+  width: 50vw;
+  margin-left: 22vw;
+  margin-bottom: 4vh;
+  margin-top: -4vh;
+  
+}
+
+.item-info-card{
+  margin-top: 6vw;
+  margin-bottom: 10vh;
+}
+
+.average-rating-on-item{
+  font-family: Futura;
+  font-size: 1vw;
+  color: #595959;
+  height: 1vh;
+}
+
+.item-image-description-block{
+  display: flex;
+  align-items: center;
+}
+
+.item-image{
+  width: 300vw !important;
+  height: 80vh !important;
+  margin-left: 0vw !important;
+  border-radius: 0.5vw !important;
+}
+
+.item-title-header{
+  margin-top: 4vh !important;
+  font-family: Futura !important;
+  font-size: 1.6vw !important;
+  text-transform: uppercase;
+}
+
+.item-info{
+  margin-left: 8vw;
+  font-size: 1.3vw;
+  font-family: Futura;
+}
+
+.item-description{
+  margin-top: 5vh !important;
+}
+
+.item-price{
+  margin-top: 3vh;
+  font-size: 2.3vw;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.item-quantity-left{
+  font-weight: 900;
+  font-family: "Futura";
+  width: 23vw;
+  text-align: center;
+  font-size: 1vw;
+  padding: 0.6vw;
+}
+
+.item-quantity-left:hover{
+  padding: 0.8vw;
+}
+
+.add-to-cart-btn{
+  background-color: #2e74f7 !important;
+  color: #f0f0f0 !important;
+  margin-top: -4vh !important;
+  margin-bottom: 4vh !important;
+  border-radius: .25vw !important;
+  width: 23vw !important;
+  padding: 1vw !important;
+}
+
+.add-to-cart-btn:hover{
+  background-color: #5f94f7 !important;
+  color: #f0f0f0 !important;
+}
+
+.item-info-review-separator{
+  width: 90vw;
+}
+
+.item-card{
+  height: 40vh !important;
+  width: 18vw !important;
+  margin-left: 2vw !important;
+  margin-top: 2vh !important;
+  margin-bottom: .5vh !important;
+}
+
+.order-card-container{
+  margin-bottom: 3vh !important;
+  width: 40vw !important;
+}
+
+.review-header{
+  margin-top: 4vh !important;
+  margin-bottom: 1.5vh !important;
+  text-decoration: underline;
+}
+
+.no-reviews{
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #F1641E;
+  margin-top: 7vh !important;
+}
+
+.review-delete-button{
+  font-size: 0.8vw;
+  padding-left: 1vw;
+  text-decoration: underline;
+  display: inline;
+  word-wrap: break-word;
+}
+
+.review-delete-button:hover{
+  cursor: pointer;
+  color: #595959;
+}
+
+.review-post-time{
+  font-size: 0.7vw;
+  color: #595959;
+}
+
+.review-username{
+  font-size: 1.2vw;
+  margin-bottom: 0vh;
+  color: #595959;
+}
+
+.review-comment{
+  font-size: 2.5vh;
+  margin-bottom: 3vh !important;
+  margin-left: 1vw !important;
+}
+
+.rating-stars-card{
+  margin-left: 1vw !important;
+}
+
+.create-review-button{
+  margin-top: 3vh !important;
+  margin-bottom: 20vh !important;
+}
+
+
+.order-header{
+  text-align: center;
+  margin-top: 5vh !important;
+  margin-bottom: 3vw;
+}
+
+.order-cart-item-container{
+  display: flex;
+  align-items: center;
+}
+
+.purchased-time{
+  margin-left: 30vw;
+  margin-top: 5vh !important;
+}
+
+.order-item-info{
+  margin-left: 3vw;
+  font-size: 1.1vw;
+  font-family: "Guardian-EgypTT",serif;
+}
+
+.order-segment{
+  height: 20vh !important;
+}
+
+.order-item-image{
+  height: 12vh;
+  border: 1px solid #d2d2d2;
+  border-radius: 0.4vh;
+  padding: 0.4vh;
+}
+
+.order-item-title{
+  text-decoration: none !important;
+  color: #222222 !important;
+  font-size: 1.1vw !important;
+}
+
+.order-item-title:hover{
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}
+
+.order-item-price{
+  margin-top: 3vh;
+  font-size: 1vw;
+  font-family: "Futura";
+  color: #222222;
+}
+
+.profile-header{
+  margin-bottom: -7vh !important;
+  margin-left: 2vw !important;
+  font-size: 2vw !important;
+}
+
+.profile-picture{
+  height: 18.5vh !important;
+  width: 10vw !important;
+}
+
+.delete-profile-btn{
+  margin-left: 13.5vw !important;
+  margin-bottom: 8vh !important;
+  font-size: 0.75vw !important;
+  font-weight: 400 !important;
+  background-color: #FF6347 !important;
+  padding: 0.4vw !important;
+  color: #f3f2f2 !important;
+}
+
+.profile-order-separation{
+  width: 90vw;
+}
+
+
+.ui.active.modal{
+    display: block;
+    width: 28vw;
+    height: 60vh;
+}
+
+.login-signup-header{
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+.login-labels{
+  text-align: center;
+  margin-top: 3vh !important;
+  font-size: 1vw !important;
+  margin-bottom: 2vh !important;
+}
+
+.login-signup-input-field{
+  width: 20vw !important;
+}
+
+.login-form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-signup-form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-labels{
+  margin-top: 0vh !important;
+  font-size: 1vw !important;
+  text-align: center !important;
+  
+}
+
+.login-signup-submit-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh !important;
+}
+
+.check-if-have-account{
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+  margin-top: 5vh;
+}
+
+.have-account-title{
+  font-size: 1vw;
+}
+
+.signup-login-route-button{
+  margin-top: -2vh;
+  margin-left: 1vw;
+  text-decoration: underline;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.signup-login-route-button:hover{
+  cursor: pointer;
+  color: #222222;
+}
+
+.invalid-logins{
+  font-family: "Futura";
+  font-size: 1.1vw;
+  text-align: center;
+  color: #e92001;
+}
+
+
+.cart-item-image{
+  width: 11vw;
+  height: 18vh;
+}
+
+.cart-item-info{
+  margin-left: 3vw;
+  font-size: 1.1vw;
+  font-family: "Helvetica";
+}
+
+.cart-item-price{
+  margin-top: 3vh;
+  font-size: 1vw;
+  font-family: "Futura";
+  color: #222222;
+}
+
+.remove-from-cart-btn{
+  border-radius: 1vw;
+  color: #f0f0f0 !important;
+  background-color: #c51313 !important;
+}
+
+
+.checkout-container{
+  margin-top: 10vh !important;
+  margin-left: 10vw !important;
+  margin-right: 10vw !important;
+  margin-bottom: 25vh !important;
+}
+
+.checkout-info{
+  text-align: center;
+  margin-bottom: 50vh;
+}
+
+.checkout-btn{
+  margin-top: 10vh !important;
+  background-color: #4a7ff1 !important;
+  color: #f0f0f0 !important;
+  width: 12vw !important;
+  border-radius: 1vw;
+}
+
+.item-total-price{
+  display: flex;
+  align-items: center;
+}
+
+.items-total-title{
+  margin-left: 1.5vw;
+  margin-top: 1vh !important;
+  font-size: 1vw;
+  font-family: "Futura";
+}
+
+.items-cart-total{
+  margin-left: 23vw;
+  margin-top: -0.2vh;
+  font-size: 1vw;
+  font-family: "Futura";
+}
+
+.items-shipping-title{
+  margin-left: 1.5vw;
+  font-size: 1vw;
+  font-family: "Futura";
+}
+
+.items-cart-shipping{
+  margin-left: 25vw;
+  margin-top: -0.2vh;
+  font-size: 1vw;
+  font-family: "Futura";
+}
+
+.total-price-title{
+  margin-left: 1.5vw;
+  margin-top: 1vh !important;
+  font-size: 1vw;
+  font-family: "Futura";
+  font-weight: bold;
+}
+
+.cart-total-price{
+  margin-top: -0.2vh;
+  margin-left: 23vw;
+  font-weight: bold;
+}
+
+
+.not-found-container{
+  text-align: center !important;
+  background-image: url("https://res.cloudinary.com/bombas/image/fetch/f_auto,q_auto/https://cdn.shopify.com/s/files/1/1119/5850/files/201106_Holiday2_2000x.progressive.jpg%3Fv%3D1604698806");
+  background-size: cover !important;
+  height: 100vh !important;
+  margin-top: -20vh !important;
+}
+
+.not-found-message{
+  text-align: center !important;
+  font-size: 2.5vw !important;
+  margin-left: 30vw !important;
+  margin-right: 30vw !important;
+  padding-top: 40vh !important;
+  margin-bottom: 5vh !important;
+}
+
+.back-home-btn:hover{
+  margin-right: 0.5vw !important;
+  color: #000000 !important;
+}
+
+.back-home-btn{
+  font-size: 1.3vw;
+  color: #000000 !important;
+}
+
+.back-home-arrow{
+  color: #000000 !important;
+}
+
+
+.footer-container{
+  background-image: url('https://res.cloudinary.com/dn1e07eul/image/upload/v1604417481/Bombastic/bombas02_vjq9gw.jpg');
+  background-size: cover !important;
+  height: 18vh !important;
+
+}
+
+.footer-logo-container{
+  display: flex;
+  align-items: center;
+  margin-top: 28vh;
+  margin-bottom: 1.5vh;
+}
+
+.footer-title{
+  margin-top: 4vh !important;
+  margin-left: 10vw !important;
+  letter-spacing: 0.1vw !important;
+  font-family: 'Futura';
+  font-weight: bold !important;
+  font-size: 1.6vw !important;
+  color: #ffffff !important;
+}
+
+.footer-certified-logo{
+  margin-left: 10vw;
+  color: #e4e4e4;
+  font-size: 0.8vw;
+}
+
+.footer-website-rights{
+  margin-left: 10vw;
+  color: #e4e4e4;
+  font-size: 1.25vw;
+  margin-right: 5vw;
 }
