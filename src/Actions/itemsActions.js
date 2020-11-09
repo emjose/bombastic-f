@@ -32,3 +32,10 @@ export const sortByPrice = (checkItems) => {
         checkItems
     }
 }
+
+export const sortItems = (term) =>{
+    return {
+        type: "SORT_ITEMS",
+        term
+    }
+}

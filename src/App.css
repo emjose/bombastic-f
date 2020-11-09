@@ -82,6 +82,7 @@ body{
   display: flex;
   align-items: center;
   margin-left: 1vw;
+  font-size: 1vw;
 }
 
 .sort-input-field{
@@ -203,12 +204,12 @@ body{
   font-weight: bold;
 }
 
-.item-quantity-left{
+.pairs-donated{
   font-weight: 900;
   font-family: "Futura";
   width: 23vw;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.25vw;
   padding: 0.6vw;
 }
 
@@ -511,9 +512,9 @@ body{
 }
 
 .items-total-title{
-  margin-left: 1.5vw;
+  margin-left: 1.25vw;
   margin-top: 1vh !important;
-  font-size: 1vw;
+  font-size: 1.35vw;
   font-family: "Futura";
 }
 
@@ -525,8 +526,8 @@ body{
 }
 
 .items-shipping-title{
-  margin-left: 1.5vw;
-  font-size: 1vw;
+  margin-left: 1.25vw;
+  font-size: 1.35vw;
   font-family: "Futura";
 }
 
@@ -538,11 +539,11 @@ body{
 }
 
 .total-price-title{
-  margin-left: 1.5vw;
+  margin-left: 1.25vw;
   margin-top: 1vh !important;
-  font-size: 1vw;
+  font-size: 1.35vw;
   font-family: "Futura";
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .cart-total-price{

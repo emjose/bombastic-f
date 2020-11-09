@@ -74,7 +74,7 @@ const CheckoutCard = (props) => {
                     </div>
                     <hr/>
                     <div className="item-total-price">
-                        <p className="total-price-title">Total({cartTotalItem()} item)</p>
+                        <p className="total-price-title">Total: {cartTotalItem()} items</p>
                         <p className="cart-total-price">${totalWithShipping ? totalWithShipping : totalWithShipping = 0}</p>
                     </div>
                     <StripeCheckout 
@@ -84,7 +84,7 @@ const CheckoutCard = (props) => {
                         billingAddress
                         shippingAddress
                     >
-                    <Button onClick={checkOutMessage} className="checkout-btn">Checkout</Button>
+                    <Button onClick={checkOutMessage} className="checkout-btn">CHECKOUT</Button>
                     </StripeCheckout>
                 </div>
             </Segment>

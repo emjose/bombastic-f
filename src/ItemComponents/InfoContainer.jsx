@@ -63,7 +63,7 @@ const InfoContainer = (props) => {
                             </div>
                             <p className="item-description">{item.description.length > 1000 ? item.description.slice(0, 916) : item.description}</p>
                             <p className="item-price">Price: ${item.price}</p>
-                            <p className="item-quantity-left">PAIRS DONATED: {item.quantity}</p>
+                            <p className="pairs-donated">PAIRS DONATED: {item.quantity}</p>
                             <br/>
                             {item.quantity < 1 ? <Button disabled className="add-to-cart-btn">Sold out</Button> : <Button className="add-to-cart-btn" disabled={localStorage.token ? false : true} onClick={fetchToCart}>ADD TO CART</Button>}
                         </div>

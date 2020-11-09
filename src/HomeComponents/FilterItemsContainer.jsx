@@ -13,7 +13,7 @@ const FilterItemsContainer = (props) => {
     return (
         <div className="filter-container">
             <Menu text vertical>
-                <Menu.Item header>Sort By Price</Menu.Item>
+                <Menu.Item header>Price</Menu.Item>
                 <Form>
                     <div className="sort-by-input">
                         <Form.Input
@@ -24,7 +24,7 @@ const FilterItemsContainer = (props) => {
                             value="All"
                             onChange={handleAllPrice} 
                         />
-                        <label className="sort-label-tag">Any Price</label>
+                        <label className="sort-label-tag">All</label>
                     </div>
                 </Form>
                 <Form>
@@ -50,7 +50,7 @@ const FilterItemsContainer = (props) => {
                             value="highPrice"
                             onChange={handleAllPrice} 
                         />
-                        <label className="sort-label-tag">Highest to Lowest</label>
+                        <label className="sort-label-tag">High to Low</label>
                     </div>
                 </Form>
             </Menu>
