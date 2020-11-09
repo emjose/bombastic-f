@@ -6,11 +6,9 @@ import { Header } from 'semantic-ui-react'
 const ProfileCard = (props) => {
 
     return (
-
         <Header as='h2' className="profile-header">
             Hello {props.user.username}!
         </Header>
-        
     );
 };
 

@@ -15,7 +15,7 @@ const CartContainer = () => {
                     <CheckoutCardContainer />
                 </Grid.Column>
             </Grid>
-            <Divider vertical>Cart</Divider>
+            <Divider></Divider>
         </Segment>
     );
 };
