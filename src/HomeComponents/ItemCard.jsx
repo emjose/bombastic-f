@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Image, Header, Dimmer, Loader } from 'semantic-ui-react'
+import { Card, Header, Dimmer, Loader } from 'semantic-ui-react'
+// import { Card, Image, Header, Dimmer, Loader } from 'semantic-ui-react'
 // import { Card, Image, Rating, Header, Dimmer, Loader } from 'semantic-ui-react'
 import { Link } from "react-router-dom"
 import { connect } from 'react-redux'
@@ -38,9 +39,9 @@ const ItemCard = (props) => {
                             :
                             <Card className="item-card">
                                 <div class="ui slide masked reveal image">
-                                    <img src={props.item.image} class="visible content"/>
-                                    <img src={props.item.imageb} class="hidden content"/>
-                                    <img src={props.item.imagec} class="hidden content"/>
+                                    <img src={props.item.image} class="visible content" alt="sock product"/>
+                                    <img src={props.item.imageb} class="hidden content" alt="sock product"/>
+                                    <img src={props.item.imagec} class="hidden content" alt="sock product"/>
                                 </div>
                             {/* <Image src={props.item.image} alt="default image" wrapped ui={false}/> */}
                             <Card.Content className="item-card-content">
