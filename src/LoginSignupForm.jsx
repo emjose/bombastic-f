@@ -35,29 +35,31 @@ class LoginSignupForm extends Component {
         <>
         {this.state.display ?
         <>
-        <Modal.Header className="login-signup-header">Sign in</Modal.Header>
+        <br></br>
+        <br></br>
+        <Modal.Header className="login-signup-header">LOGIN</Modal.Header>
         <Modal.Description>
             <Form.Field className="login-form">
-                <label className="login-labels">Username</label>
+                <label className="login-labels">username</label>
                 <Form.Input 
                     icon='user'
                     iconPosition='left'
                     className="login-signup-input-field"
                     type="text"
-                    placeholder="Username"
+                    placeholder="username"
                     name="username"
                     value={this.state.username} 
                     onChange={this.handleChange} 
                 />
             </Form.Field>
             <Form.Field className="login-form">
-                <label className="login-labels">Password</label>
+                <label className="login-labels">password</label>
                 <Form.Input
                     icon='lock'
                     iconPosition='left'
                     className="login-signup-input-field"
                     type="password"
-                    placeholder="Password"
+                    placeholder="password"
                     name="password"
                     value={this.state.password} 
                     onChange={this.handleChange} 
@@ -65,36 +67,38 @@ class LoginSignupForm extends Component {
             </Form.Field>
             <p className="invalid-logins">{this.props.error.errors}</p>
         </Modal.Description>
-        <Form.Field className="login-signup-submit-btn" color="blue" control={Button}>Sign in</Form.Field>
+        <Form.Field className="login-signup-submit-btn" color="blue" control={Button}>LOGIN</Form.Field>
         <div className="check-if-have-account">
-            <p className="have-account-title">Don't have an account? </p>
-            <p className="signup-login-route-button" onClick={showSignUp}>Please sign up.</p>
+            <p className="have-account-title">Need an Account?</p>
+            <p className="signup-login-route-button" onClick={showSignUp}>Let's Sign Up!</p>
         </div>
         </> : 
         <>
-        <Modal.Header className="login-signup-header">Signup</Modal.Header>
+        <br></br>
+        <br></br>
+        <Modal.Header className="login-signup-header">SIGN UP</Modal.Header>
         <Modal.Description>  
             <Form.Field className="login-signup-form">
-                <label className="signup-labels">Username</label>
+                <label className="signup-labels">username</label>
                 <Form.Input 
                     icon='user'
                     iconPosition='left'
                     className="login-signup-input-field"
                     type="text"
-                    placeholder="Username"
+                    placeholder="username"
                     name="username"
                     value={this.state.username} 
                     onChange={this.handleChange} 
                 />
             </Form.Field>
             <Form.Field className="login-signup-form">
-                <label className="signup-labels">Password</label>
+                <label className="signup-labels">password</label>
                 <Form.Input
                     icon='lock'
                     iconPosition='left'
                     className="login-signup-input-field"
                     type="password"
-                    placeholder="Password"
+                    placeholder="password"
                     name="password"
                     value={this.state.password} 
                     onChange={this.handleChange} 
@@ -103,11 +107,11 @@ class LoginSignupForm extends Component {
 
             <p className="invalid-logins">{this.props.error.errors}</p> 
         </Modal.Description>
-        <Form.Field className="login-signup-submit-btn" color="blue" control={Button}>Sign up</Form.Field>
+        <Form.Field className="login-signup-submit-btn" color="blue" control={Button}>SIGN UP</Form.Field>
                 
         <div className="check-if-have-account">
-            <p className="have-account-title">Already have an account?</p> 
-            <p className="signup-login-route-button" onClick={showSignUp}>Please login</p>
+            <p className="have-account-title">Have an account?</p> 
+            <p className="signup-login-route-button" onClick={showSignUp}>Let's Login!</p>
         </div>
         </>
         }

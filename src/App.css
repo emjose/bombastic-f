@@ -45,21 +45,22 @@ body{
 }
 
 .bombastic-logo{
-  color: #1e56f1 !important;
-  font-family: futura;
-  font-size: 4vw;
-  font-weight: 100;
+  color: #ffffff !important;
+  font-family: 'Inter', sans-serif;
+  margin-top: 30vh !important;
+  /* font-size: 4vw;
+  font-weight: 100; */
   font-style: normal;
 }
 
 .logo{
-  background-color: #ffd725 !important;
+  background-color: #3968e9 !important;
   font-size: 3vw !important;
   margin-bottom: 7vh !important;
   margin-top: -1vh !important;
   padding-top: 3vh !important;
   padding-bottom: 0vh !important;
-  height: 22vh !important;
+  height: 15vh !important;
 }
 
 .home-page{
@@ -74,7 +75,7 @@ body{
   top: 0;
   left: 0;
   overflow-x: hidden;
-  margin-top: 31.5vh;
+  margin-top: 25vh;
   margin-left: 2vw;
   background-color: #ffffff;
 }
@@ -121,23 +122,32 @@ body{
 }
 
 .logged-in-menu-bar{
-  margin-top: -10vh !important;
+  margin-top: -.12vh !important;
   margin-left: 75vw !important;
   width: 19.7vw fixed !important;
   position: absolute !important;
   right: 0 !important;
 }
 
+/* .logged-in-menu-bar{
+  margin-top: -10vh !important;
+  margin-left: 75vw !important;
+  width: 19.7vw fixed !important;
+  position: absolute !important;
+  right: 0 !important;
+} */
+
 #menu-bar-tags{
-  color: #000000 !important;
+  color: #b2b8ce !important;
 }
 
 .signup-menu-bar{
-  margin-top: -10vh !important;
+  margin-top: -.12vh !important;
   margin-left: 75vw !important;
   width: 19.7vw fixed !important;
   position: absolute !important;
   right: 0 !important;
+  font-color: #678aeb;
 }
 
 .sign-in{
@@ -152,9 +162,9 @@ body{
 
 .search-form{
   width: 50vw;
-  margin-left: 22vw;
+  margin-left: 25vw;
   margin-bottom: 4vh;
-  margin-top: -4vh;
+  margin-top: -3.2vh;
   
 }
 
@@ -193,7 +203,7 @@ body{
   font-family: 'Inter', sans-serif !important;
   font-weight: bold;
   font-size: 1.6vw !important;
-  color: #bbb8b8;
+  color: #d7d9db;
 }
 
 .item-info{
@@ -328,7 +338,7 @@ body{
   margin-top: 5vh !important;
   margin-bottom: 3vw;
   font-family: "Futura";
-  color: #000000;
+  color: #727272;
 }
 
 .order-cart-item-container{
@@ -341,7 +351,8 @@ body{
   margin-top: 5vh !important;
   font-size: 1.3vw;
   font-family: "Futura";
-  color: #235cf8
+  color: #3a6efc;
+  /* font-variant: small-caps; */
 }
 
 .order-item-info{
@@ -475,6 +486,7 @@ body{
 
 .have-account-title{
   font-size: 1vw;
+  align-items: center;
 }
 
 .signup-login-route-button{

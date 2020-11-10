@@ -24,7 +24,7 @@ const ProfileContainer = (props) => {
         <div>
             <ProfileCard />
             {/* <Button className="delete-profile-btn" onClick={handleDelete}>Delete Account</Button> */}
-            <hr className="profile-order-separation"/>
+            {/* <hr className="profile-order-separation"/> */}
             <OrderContainer pathname={props.routerProps.match.path}/>
         </div>
     );

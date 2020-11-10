@@ -10,6 +10,7 @@ const FilterItemsContainer = (props) => {
         props.sortByPrice(event.target.value)
     }
 
+
     return (
         <div className="filter-container">
             <Menu text vertical>

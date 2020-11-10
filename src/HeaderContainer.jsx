@@ -20,6 +20,7 @@ class HeaderContainer extends Component {
         return (
             <div>
             <Segment className="logo">
+                <br></br>
                 <Header><Link to="/"><i className="bombastic-logo">BOMBASTIC</i></Link></Header>
                         {localStorage.token ? 
                         <Header className="logged-in-menu-header">
@@ -38,7 +39,7 @@ class HeaderContainer extends Component {
                         <Header className="signup-menu-bar">
                         <Menu>
                         <Menu.Item>
-                        <Modal  trigger={<p onClick={this.clearError} className="sign-in">Sign in</p>}>
+                        <Modal  trigger={<p onClick={this.clearError} className="sign-in">LOGIN</p>}>
                             <LoginSignupForm history={this.props.historyProps.history}/>
                         </Modal>
                         </Menu.Item>

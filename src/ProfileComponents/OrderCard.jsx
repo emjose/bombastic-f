@@ -8,7 +8,7 @@ const OrderCard = (props) => {
             let orderItem = props.order.items === undefined ? null : props.order.items.map(orderItem => <ItemInfoCard key={orderItem.id} item={orderItem} pathname={props.pathname}/>)
             return (
                 <div>
-                    <h5 className="purchased-time">Order placed:  {props.order.created_at}</h5>
+                    <h5 className="purchased-time">ORDER PLACED:  {props.order.created_at}</h5>
                     {orderItem} 
                 </div>
             )
