@@ -25,13 +25,13 @@ class HeaderContainer extends Component {
                         <Header className="logged-in-menu-header">
                         <Menu className="logged-in-menu-bar">
                         <Menu.Item>
-                            <Link id="menu-bar-tags" to="/profile">Profile</Link>
+                            <Link id="menu-bar-tags" to="/profile"><Icon name="user" size="large"/></Link>
                         </Menu.Item>
                         <Menu.Item>
                             <Link id="menu-bar-tags" to="/cart"><Icon name="shopping cart" size="large"/></Link>
                         </Menu.Item>
                         <Menu.Item>
-                            <Link id="menu-bar-tags" onClick={this.logOutUser} to="/"><Icon name="sign-out" size="large"/></Link>
+                            <Link id="menu-bar-tags" onClick={this.logOutUser} to="/"><Icon name="times" size="large"/></Link>
                         </Menu.Item>
                         </Menu>
                         </Header> : 

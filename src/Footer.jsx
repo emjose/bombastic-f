@@ -16,7 +16,7 @@ class Footer extends Component {
                     <Header className="footer-title">Bombastic</Header>
                 </div>
                 <span className="footer-certified-logo">&copy; {this.actualYear()} Bombastic All rights reserved.</span>
-                <p className="footer-website-rights">Bombastic is a mock e-commerce site created for education purposes only. Bombastic does not charge any fees nor does it collect information from its users.</p>
+                <p className="footer-website-rights">Bombastic is a mock e-commerce site created for education purposes only. Bombastic does not charge any fees nor does it collect user information.</p>
             </div>
         );
     }

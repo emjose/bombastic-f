@@ -10,7 +10,7 @@ import { searchItems } from '../Actions/itemsActions'
 const ItemCard = (props) => {
     const itemTitle = () => {
         if(props.item){
-            return <> {props.item.title.slice(0, 35)}{props.item.title.length > 30 ? "..." : null } </>
+            return <> {props.item.title}</>
         }else{
             return null
         }
@@ -48,6 +48,7 @@ const ItemCard = (props) => {
                             <Header>{itemTitle()}</Header>
                                 {/* <Rating icon='star' defaultRating={averageRating} maxRating={5} disabled/> */}
                                 {/* <h4 className="item-card-price-header">Price:</h4> */}
+                                {/* <p className="item-card-color">{props.item.color}</p> */}
                                 <p className="item-card-price">${props.item.price}</p>
                             </Card.Content>
                             </Card>

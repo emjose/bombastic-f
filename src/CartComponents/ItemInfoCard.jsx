@@ -30,8 +30,8 @@ const ItemInfoCard = (props) => {
                     <div className="order-item-info">
                         <Link to={`/${props.item.id}`}><h3 className="order-item-title">{props.item.title}</h3></Link>
                         <br></br>
-                        <p className="order-item-color">Color: {props.item.color}</p>
-                        <p className="order-item-price">Price: ${props.item.price}</p>
+                        <p className="order-item-color">color: {props.item.color}</p>
+                        <p className="order-item-price">price: ${props.item.price}</p>
                     </div>
                 </div>
                 

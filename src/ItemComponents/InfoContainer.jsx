@@ -59,10 +59,10 @@ const InfoContainer = (props) => {
                         </Zoom>
                         <div className="item-info">
                             <h1 className="item-title-header">{item.title}</h1>
-                            <p className="item-color-header">Color: {item.color}</p>
                             {/* <div className="average-rating-on-item"> */}
                                 {/* <Rating icon='star' defaultRating={averageRating()} maxRating={5} disabled/> ({ratingArray()}) */}
                             {/* </div> */}
+                            <p className="item-color-header">color: {item.color}</p>
                             <p className="item-description">{item.description.length > 1000 ? item.description.slice(0, 916) : item.description}</p>
                             <p className="item-price">Price: ${item.price}</p>
                             <p className="pairs-donated">PAIRS DONATED: {item.quantity}</p>
