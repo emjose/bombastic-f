@@ -8,6 +8,7 @@ import Zoom from 'react-medium-image-zoom'
 // import Zoom from 'react-reveal/Zoom';
 import 'react-medium-image-zoom/dist/styles.css'
 
+
 const InfoContainer = (props) => {
     const item_id = parseInt(props.matchProps.params.id)
     let item = props.items ? props.items.find(item => item.id === item_id) : null
@@ -49,7 +50,10 @@ const InfoContainer = (props) => {
         //         return ratingArr.length
         //     }
         // }
+
+
         
+
         return (
             <div className="item-info-card">
                 <Container>
