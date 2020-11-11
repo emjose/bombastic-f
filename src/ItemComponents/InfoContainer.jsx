@@ -4,9 +4,11 @@ import { Image, Container, Button } from 'semantic-ui-react'
 import { connect } from 'react-redux'
 import { addToCart } from '../Actions/userActions'
 import { decreaseItemQuantity } from '../Actions/itemsActions'
-import Zoom from 'react-medium-image-zoom'
+// import Zoom from 'react-medium-image-zoom'
 // import Zoom from 'react-reveal/Zoom';
 import 'react-medium-image-zoom/dist/styles.css'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 
 const InfoContainer = (props) => {
@@ -52,15 +54,27 @@ const InfoContainer = (props) => {
         // }
 
 
-        
-
         return (
             <div className="item-info-card">
                 <Container>
                     <div className="item-image-description-block">
-                        <Zoom className="zoom-image">
+                        {/* <Zoom className="zoom-image">
                             <Image className="item-image" src={item.image} alt="default image"/>
-                        </Zoom>
+                        </Zoom> */}
+                        
+                        <Carousel>
+                            <div>
+                                <img src={item.image} alt="sock item"/>
+                            </div>
+
+                            <div>
+                                <img src={item.imageb} alt="sock item"/>
+                            </div>
+                            <div>
+                                <img src={item.imagec} alt="sock item"/>
+                            </div>
+                        </Carousel>
+                        
                         <div className="item-info">
                             <h1 className="item-title-header">{item.title}</h1>
                             {/* <div className="average-rating-on-item"> */}
