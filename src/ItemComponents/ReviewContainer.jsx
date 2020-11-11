@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ReviewCard from './ReviewCard'
 import ReviewForm from './ReviewForm'
-import { Container, Header } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { connect } from 'react-redux'
 import { addReview, fetchReviews, destroyReview } from '../Actions/reviewActions'
 
@@ -51,8 +51,9 @@ const ReviewContainer = (props) => {
         return (
             <div>
                 <Container>
-                    <Header className="review-header">Reviews:</Header> 
-                    <p className="no-reviews" hidden={reviews.length <= 0 ? false : true}>There are no reviews yet. Be the first one!</p>
+                    <div className="review-header">REVIEWS</div> 
+                    <br></br>
+                    <p className="no-reviews" hidden={reviews.length <= 0 ? false : true}>No reviews yet. Be the first one!</p>
                     {reviews}
                     <ReviewForm createReview={createReview} />
                 </Container>

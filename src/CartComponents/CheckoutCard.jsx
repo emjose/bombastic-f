@@ -26,7 +26,7 @@ const CheckoutCard = (props) => {
     // }
 
     const checkOutMessage = () => {
-        alert("Please only enter the credit card number of 4242 4242 4242 4242 for demonstration purposes.")
+        alert("Please only enter the credit card number of 4242 4242 4242 4242 for demo purposes.")
     }
 
     const onToken = (token) => {

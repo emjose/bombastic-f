@@ -62,7 +62,7 @@ body{
 
 
 .logo{
-  font-size: 3vw !important;
+  font-size: 3.5vw !important;
   margin-bottom: 7vh !important;
   margin-top: -1vh !important;
   padding-top: 3vh !important;
@@ -120,12 +120,15 @@ body{
   font-size: 1.2vw;
   margin-top: 1vh !important;
   margin-bottom: 1vh !important;
+  font-family: 'Inter', sans-serif;
 }
 
 .item-card-price{
-  color: #000000;
+  color: #9b9b9b;
   margin-bottom: -10vh !important;
-  font-family: 'Inter', sans-serif;
+  font-size: 1.25vw;
+  font-family: "Futura";
+  font-weight: bold;
 }
 
 .logged-in-menu-bar{
@@ -188,7 +191,7 @@ body{
 }
 
 .average-rating-on-item{
-  font-family: Futura;
+  font-family: 'Inter', sans-serif;
   font-size: 1vw;
   color: #595959;
   height: 1vh;
@@ -210,34 +213,38 @@ body{
 .item-title-header{
   margin-top: 4vh !important;
   font-family: Futura !important;
-  font-size: 1.6vw !important;
+  font-size: 1.7vw !important;
   text-transform: uppercase;
+  color: #FF6347;
 }
 
 .item-color-header{
   font-family: 'Inter', sans-serif !important;
   font-weight: bold;
-  font-size: 1.6vw !important;
-  color: #d7d9db;
+  font-size: 1.5vw !important;
+  color: #d3d3d4;
+  letter-spacing: .1vw;
 }
 
 .item-info{
-  margin-left: 8vw;
+  margin-left: 4vw;
   font-size: 1.3vw;
-  font-family: Futura;
+  font-family: 'Inter', sans-serif;
+  margin-top: -7.9vw;
 }
 
 .item-description{
   margin-top: 5vh !important;
-  font-size: 1.1vw;
+  font-size: 1vw;
   font-family: 'Inter', sans-serif;
 }
 
 .item-price{
   margin-top: 3vh;
-  font-size: 1.5vw;
-  font-family: Helvetica;
+  font-size: 1.35vw;
+  font-family: "Futura";
   font-weight: bold;
+  color: #6e6e6e;
 }
 
 .pairs-donated{
@@ -247,7 +254,7 @@ body{
   text-align: center;
   font-size: 1.25vw;
   padding: 0.6vw;
-  color: #5cb5fd
+  color: #5cb5fd;
 }
 
 .item-quantity-left:hover{
@@ -269,15 +276,15 @@ body{
   color: #f0f0f0 !important;
 }
 
-.item-info-review-separator{
-  width: 90vw;
-}
+/* .item-info-review-separator{
+  width: 67vw;
+} */
 
 .item-card{
   display: block;
   width: auto;
   height: 100%;
-  height: 40vh;
+  height: 44vh;
   width: 22vw;
   margin-left: 2vw !important;
   margin-top: 2vh !important;
@@ -291,6 +298,14 @@ body{
   font-size: 2vw;
 } */
 
+.item-title-card{
+  font-family: "Futura";
+  text-transform: uppercase;
+  letter-spacing: .07vw;
+  font-size: 1.1vw;
+  color: #FF6347;
+}
+
 .order-card-container{
   margin-bottom: 3vh !important;
   width: 40vw !important;
@@ -299,48 +314,65 @@ body{
 .review-header{
   margin-top: 4vh !important;
   margin-bottom: 1.5vh !important;
-  text-decoration: underline;
+  font-family: 'Futura';
+  font-style: bold;
+  font-weight: 900;
+  font-size: 1.75vw;
+  color: #FF6347;
 }
 
 .no-reviews{
   font-size: 1.5vw;
   font-weight: bold;
-  color: #F1641E;
-  margin-top: 7vh !important;
+  color: #5cb5fd;
+  margin-top: 3vh !important;
 }
 
 .review-delete-button{
-  font-size: 0.8vw;
-  padding-left: 1vw;
-  text-decoration: underline;
-  display: inline;
-  word-wrap: break-word;
+  font-size: 1vw;
+  padding-left: 0vw;
+  font-family: 'Futura';
+  font-weight: bold;
+  letter-spacing: 00.09vw;
+  color: #d4d3d3;
+
+  /* text-decoration: underline; */
+  /* display: inline; */
+  /* word-wrap: break-word; */
 }
 
 .review-delete-button:hover{
   cursor: pointer;
-  color: #595959;
+  color: #ffad50;
 }
 
 .review-post-time{
-  font-size: 0.7vw;
-  color: #595959;
+  font-size: 1vw;
+  color: #4d9cf7;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
 }
 
 .review-username{
-  font-size: 1.2vw;
   margin-bottom: 0vh;
-  color: #595959;
+  font-size: 1vw;
+  color: #4d9cf7;
+  letter-spacing: 0.05vw !important;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .review-comment{
-  font-size: 2.5vh;
+  font-size: 2.75vh;
   margin-bottom: 3vh !important;
-  margin-left: 1vw !important;
+  margin-top: 1vh !important;
+  margin-left: 0vw !important;
+  font-family: 'Inter', sans-serif;
 }
 
 .rating-stars-card{
-  margin-left: 1vw !important;
+  margin-left: 0vw !important;
 }
 
 .create-review-button{
@@ -367,7 +399,7 @@ body{
   margin-top: 5vh !important;
   font-size: 1.3vw;
   font-family: "Futura";
-  color: #2d96ec
+  color: #449de6
   /* font-variant: small-caps; */
 }
 
@@ -421,6 +453,7 @@ body{
   margin-left: 5vh !important;
   font-size: 2.5vw !important;
   font-family: 'Inter', sans-serif;
+  letter-spacing: .1vw;
   color: #fda500;
 }
 
@@ -444,6 +477,9 @@ body{
   color: #ffffff;
 }
 
+/* .carousel-thumbnail{
+  size: 200px;
+} */
 
 .ui.active.modal{
     display: block;
@@ -658,7 +694,7 @@ body{
 
 
 .footer-container{
-  background-color: #9ec9fa;
+  background-color: #74b2fa;
   height: 22vh !important;
 }
 

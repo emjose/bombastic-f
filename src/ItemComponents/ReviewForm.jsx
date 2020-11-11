@@ -31,8 +31,8 @@ class ReviewForm extends Component {
         return (
             <Form hidden={localStorage.token ? false : true} onSubmit={this.handleSubmit}>
                 <Form.TextArea
-                    label='Leave a review here'
-                    placeholder="Write your thoughts"
+                    label=''
+                    placeholder="REVIEW THIS ITEM!"
                     name="comment"
                     value={this.state.comment}
                     onChange={this.handleChange}
@@ -41,12 +41,13 @@ class ReviewForm extends Component {
                     name="rating"
                     onRate={this.handleChange}
                     icon="star"
+                    size="huge"
                     defaultRating={0} 
                     maxRating={5} 
                     clearable
                 />
                 <br/>
-                <Button className="create-review-button" type='submit'>Submit</Button>
+                <Button className="create-review-button" type='submit'>SUBMIT</Button>
             </Form>
         )
     }

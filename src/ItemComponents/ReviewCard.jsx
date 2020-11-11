@@ -11,15 +11,20 @@ const ReviewCard = (props) => {
 
     const showDeleteButton = () => {
         if(localStorage.token && props.review.user_id === props.user.id){
-            return <span className="review-delete-button" onClick={handleDelete}>Delete</span>
+            return <span className="review-delete-button" onClick={handleDelete}>DELETE</span>
         }
     }
 
     return (
             <Container>
                 <p className="review-username">{props.review.username} - <span className="review-post-time">{props.review.created_at}</span></p>
-                <Rating className="rating-stars-card" icon='star' defaultRating={props.review.rating} maxRating={5} disabled /> 
-                <p className="review-comment">{props.review.comment} {showDeleteButton()}</p>
+                <br></br>
+                <Rating className="rating-stars-card" icon='star' size='huge' defaultRating={props.review.rating} maxRating={5} clearable /> 
+                <p className="review-comment">"{props.review.comment}" </p>
+                {showDeleteButton()}
+                <br></br>
+                <br></br>
+                <br></br>
             </Container>
     );
 

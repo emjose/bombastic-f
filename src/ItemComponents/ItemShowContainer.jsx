@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
 import InfoContainer from './InfoContainer'
-// import ReviewContainer from './ReviewContainer'
+import ReviewContainer from './ReviewContainer'
 import NotFound from '../NotFound'
 
 const ItemShowContainer = (props) => {
@@ -12,9 +12,10 @@ const ItemShowContainer = (props) => {
         <div>
             {itemIds.includes(parseInt(props.match.params.id)) ?
                 <div>
+                    <br></br>
                     <InfoContainer matchProps={props.match}/>
-                    {/* <hr className="item-info-review-separator"/> */}
-                    {/* <ReviewContainer matchProps={props.match}/> */}
+                    <hr className="item-info-review-separator"/>
+                    <ReviewContainer matchProps={props.match}/>
                 </div>
                 :
                 <div>
