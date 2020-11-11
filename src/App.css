@@ -47,14 +47,21 @@ body{
 .bombastic-logo{
   color: #ffffff !important;
   font-family: 'Inter', sans-serif;
-  margin-top: 30vh !important;
-  /* font-size: 4vw;
-  font-weight: 100; */
+  margin-top: 1.5vh;
+  margin-left: 5vh;
   font-style: normal;
+  display:inline-block;
 }
 
+
+.header-banner{
+  background-image: url('https://res.cloudinary.com/dn1e07eul/image/upload/v1605059353/Bombastic/bombas08_utxgfn.jpg');
+  background-size: cover !important;
+  height: 25vh !important;
+}
+
+
 .logo{
-  background-color: #3968e9 !important;
   font-size: 3vw !important;
   margin-bottom: 7vh !important;
   margin-top: -1vh !important;
@@ -75,7 +82,7 @@ body{
   top: 0;
   left: 0;
   overflow-x: hidden;
-  margin-top: 25vh;
+  margin-top: 26.5vh;
   margin-left: 2vw;
   background-color: #ffffff;
 }
@@ -122,8 +129,9 @@ body{
 }
 
 .logged-in-menu-bar{
-  margin-top: -.12vh !important;
+  margin-top: 12.5vh !important;
   margin-left: 75vw !important;
+  margin-right: 1vw !important;
   width: 19.7vw fixed !important;
   position: absolute !important;
   right: 0 !important;
@@ -138,20 +146,20 @@ body{
 } */
 
 #menu-bar-tags{
-  color: #b2b8ce !important;
+  color: #b8d3f1 !important;
 }
 
 .signup-menu-bar{
-  margin-top: -.12vh !important;
+  margin-top: 12.4vh !important;
   margin-left: 75vw !important;
+  margin-right: 1vw !important;
   width: 19.7vw fixed !important;
   position: absolute !important;
   right: 0 !important;
-  font-color: #678aeb;
 }
 
 .sign-in{
-  color: #000000;
+  color: #7fb0e9;
   font-weight: bold;
   font-size: 1vw;
 }
@@ -164,7 +172,7 @@ body{
   width: 50vw;
   margin-left: 25vw;
   margin-bottom: 4vh;
-  margin-top: -3.2vh;
+  margin-top: 3.5vh;
   
 }
 
@@ -338,7 +346,7 @@ body{
   margin-top: 5vh !important;
   margin-bottom: 3vw;
   font-family: "Futura";
-  color: #727272;
+  color: #b3b7c2;
 }
 
 .order-cart-item-container{
@@ -351,7 +359,7 @@ body{
   margin-top: 5vh !important;
   font-size: 1.3vw;
   font-family: "Futura";
-  color: #3a6efc;
+  color: #98c1f0;
   /* font-variant: small-caps; */
 }
 
@@ -400,10 +408,12 @@ body{
 }
 
 .profile-header{
+  margin-top: 3.5vh;
   margin-bottom: -7vh !important;
-  margin-left: 2vw !important;
+  margin-left: 5vh !important;
   font-size: 2.5vw !important;
-  font-family: "Futura";
+  font-family: 'Inter', sans-serif;
+  color: #fda500;
 }
 
 .profile-picture{
@@ -531,7 +541,7 @@ body{
 .remove-from-cart-btn{
   border-radius: 1vw;
   color: #f0f0f0 !important;
-  background-color: #dd3c3c !important;
+  background-color: #ff7b23 !important;
 }
 
 
@@ -549,7 +559,7 @@ body{
 
 .checkout-btn{
   margin-top: 10vh !important;
-  background-color: #4a7ff1 !important;
+  background-color: #3a87fa !important;
   color: #f0f0f0 !important;
   width: 12vw !important;
   border-radius: 1vw;
@@ -640,10 +650,9 @@ body{
 
 
 .footer-container{
-  background-image: url('https://res.cloudinary.com/dn1e07eul/image/upload/v1604417481/Bombastic/bombas02_vjq9gw.jpg');
+  background-image: url('https://res.cloudinary.com/dn1e07eul/image/upload/v1604417476/Bombastic/bombas01_xmppib.jpg');
   background-size: cover !important;
   height: 22vh !important;
-
 }
 
 .footer-logo-container{
@@ -671,7 +680,7 @@ body{
 
 .footer-website-rights{
   margin-left: 10vw;
-  color: #e4e4e4;
+  color: #ffffff;
   font-size: 1.25vw;
   margin-right: 5vw;
 }
