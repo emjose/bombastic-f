@@ -14,7 +14,7 @@ const ReviewContainer = (props) => {
             .then(reviewsArr => {
                 props.fetchReviews(reviewsArr)
             })
-    }, [])
+    }, [props])
 
     const createReview = (newReview) => {
         fetch('http://localhost:3000//reviews', {
