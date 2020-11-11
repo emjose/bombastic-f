@@ -1,7 +1,8 @@
 import React from 'react';
 import ItemInCartContainer from './ItemInCartContainer'
 import CheckoutCardContainer from './CheckoutCard'
-import { Divider, Grid, Segment } from 'semantic-ui-react'
+import { Grid, Segment } from 'semantic-ui-react'
+// import { Divider, Grid, Segment } from 'semantic-ui-react'
 
 
 const CartContainer = () => {
@@ -15,7 +16,7 @@ const CartContainer = () => {
                     <CheckoutCardContainer />
                 </Grid.Column>
             </Grid>
-            <Divider></Divider>
+            {/* <Divider></Divider> */}
         </Segment>
     );
 };

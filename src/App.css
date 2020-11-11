@@ -47,7 +47,7 @@ body{
 .bombastic-logo{
   color: #ffffff !important;
   font-family: 'Inter', sans-serif;
-  margin-top: 1.5vh;
+  margin-top: 1vh;
   margin-left: 5vh;
   font-style: normal;
   display:inline-block;
@@ -82,7 +82,7 @@ body{
   top: 0;
   left: 0;
   overflow-x: hidden;
-  margin-top: 26.5vh;
+  margin-top: 34.7vh;
   margin-left: 2vw;
   background-color: #ffffff;
 }
@@ -129,10 +129,10 @@ body{
 }
 
 .logged-in-menu-bar{
-  margin-top: 12.5vh !important;
+  margin-top: 12.8vh !important;
   margin-left: 75vw !important;
-  margin-right: 1vw !important;
-  width: 19.7vw fixed !important;
+  margin-right: 0vw !important;
+  width: 10.7vw !important;
   position: absolute !important;
   right: 0 !important;
 }
@@ -150,9 +150,9 @@ body{
 }
 
 .signup-menu-bar{
-  margin-top: 12.4vh !important;
+  margin-top: 12.8vh !important;
   margin-left: 75vw !important;
-  margin-right: 1vw !important;
+  margin-right: 0vw !important;
   width: 19.7vw fixed !important;
   position: absolute !important;
   right: 0 !important;
@@ -168,16 +168,22 @@ body{
   cursor: pointer;
 }
 
-.search-form{
-  width: 50vw;
-  margin-left: 25vw;
+/* .search-form{
+  width: 53.7vw;
+  margin-left: 15.95vw;
   margin-bottom: 4vh;
   margin-top: 3.5vh;
-  
+} */
+
+.search-form{
+  width: 50vw;
+  margin-left: 26vw;
+  margin-bottom: 4vh;
+  margin-top: 3.5vh;
 }
 
 .item-info-card{
-  margin-top: 6vw;
+  margin-top: 4vw;
   margin-bottom: 10vh;
 }
 
@@ -189,6 +195,7 @@ body{
 }
 
 .item-image-description-block{
+  margin-top: 1vw;
   display: flex;
   align-items: center;
 }
@@ -222,7 +229,7 @@ body{
 
 .item-description{
   margin-top: 5vh !important;
-  font-size: 1.15vw;
+  font-size: 1.1vw;
   font-family: 'Inter', sans-serif;
 }
 
@@ -240,7 +247,7 @@ body{
   text-align: center;
   font-size: 1.25vw;
   padding: 0.6vw;
-  color: #1e56f1
+  color: #5cb5fd
 }
 
 .item-quantity-left:hover{
@@ -248,7 +255,7 @@ body{
 }
 
 .add-to-cart-btn{
-  background-color: #2e74f7 !important;
+  background-color: #2e8cf7 !important;
   color: #f0f0f0 !important;
   margin-top: -4vh !important;
   margin-bottom: 4vh !important;
@@ -277,6 +284,7 @@ body{
   margin-bottom: .5vh !important;
   /* flex: 1; */
   flex-basis: 0;
+  overflow: hidden;
 }
 
 /* .item-card-content{
@@ -359,7 +367,7 @@ body{
   margin-top: 5vh !important;
   font-size: 1.3vw;
   font-family: "Futura";
-  color: #98c1f0;
+  color: #2d96ec
   /* font-variant: small-caps; */
 }
 
@@ -650,10 +658,15 @@ body{
 
 
 .footer-container{
+  background-color: #9ec9fa;
+  height: 22vh !important;
+}
+
+/* .footer-container{
   background-image: url('https://res.cloudinary.com/dn1e07eul/image/upload/v1604417476/Bombastic/bombas01_xmppib.jpg');
   background-size: cover !important;
   height: 22vh !important;
-}
+} */
 
 .footer-logo-container{
   display: flex;
@@ -674,7 +687,7 @@ body{
 
 .footer-certified-logo{
   margin-left: 10vw;
-  color: #e4e4e4;
+  color: #ffffff;
   font-size: 0.8vw;
 }
 
