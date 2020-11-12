@@ -47,7 +47,7 @@ class ReviewForm extends Component {
                     clearable
                 />
                 <br/>
-                <Button className="create-review-button" type='submit'>SUBMIT</Button>
+                <Button color="blue" className="create-review-button" type='submit'>SUBMIT</Button>
             </Form>
         )
     }

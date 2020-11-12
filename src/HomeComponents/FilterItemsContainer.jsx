@@ -3,6 +3,8 @@ import { Menu, Form } from 'semantic-ui-react'
 import { connect } from 'react-redux'
 import { sortByPrice } from '../Actions/itemsActions'
 
+// import { sortItems } from '../Actions/itemsActions'
+
 
 const FilterItemsContainer = (props) => {
 
@@ -69,7 +71,7 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, { sortByPrice })(FilterItemsContainer);
 
-{/* <div className="color-labels">               
+/* <div className="color-labels">               
     <div>
     <a class="huge ui red empty circular label"></a>
     </div>
@@ -109,4 +111,4 @@ export default connect(mapStateToProps, { sortByPrice })(FilterItemsContainer);
     <div>
     <a class="huge ui black empty circular label"></a>
     </div>
-</div>  */}
+</div>  */
