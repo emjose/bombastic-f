@@ -213,7 +213,7 @@ body{
 .item-title-header{
   margin-top: 4vh !important;
   font-family: Futura !important;
-  font-size: 1.7vw !important;
+  font-size: 2vw !important;
   text-transform: uppercase;
   color: #FF6347;
 }
@@ -223,11 +223,11 @@ body{
   font-weight: bold;
   font-size: 1.5vw !important;
   color: #d3d3d4;
-  letter-spacing: .1vw;
+  letter-spacing: .08vw;
 }
 
 .item-info{
-  margin-left: 4vw;
+  margin-left: 3vw;
   font-size: 1.3vw;
   font-family: 'Inter', sans-serif;
   margin-top: -7.9vw;
@@ -235,7 +235,13 @@ body{
 
 .item-description{
   margin-top: 5vh !important;
-  font-size: 1vw;
+  font-size: 1.1vw;
+  font-family: 'Inter', sans-serif;
+}
+
+.item-end-description{
+  margin-top: 4vh !important;
+  font-size: 1.15vw;
   font-family: 'Inter', sans-serif;
 }
 

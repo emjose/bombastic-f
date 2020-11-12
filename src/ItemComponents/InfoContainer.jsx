@@ -75,6 +75,21 @@ const InfoContainer = (props) => {
                             <div className="carousel-thumbnail">
                                 <img src={item.imagec} alt="sock item"/>
                             </div>
+                            <div className="carousel-thumbnail">
+                                <img src={item.imaged} alt="sock item"/>
+                            </div>
+                            {/* <div className="carousel-thumbnail">
+                                <img src={item.image} alt="sock item"/>
+                            </div> */}
+                            <div className="carousel-thumbnail">
+                                <img src={item.imageb} alt="sock item"/>
+                            </div>
+                            <div className="carousel-thumbnail">
+                                <img src={item.imagec} alt="sock item"/>
+                            </div>
+                            <div className="carousel-thumbnail">
+                                <img src={item.imaged} alt="sock item"/>
+                            </div>
                         </Carousel>
                         
                         <div className="item-info">
@@ -84,7 +99,8 @@ const InfoContainer = (props) => {
                                 <Rating icon='star' size='huge' defaultRating={averageRating()} maxRating={5} disabled/> {ratingArray()} reviews
                             </p>
                             <p className="item-color-header">color: {item.color}</p>
-                            <p className="item-description">{item.description.length > 1000 ? item.description.slice(0, 916) : item.description}</p>
+                            <p className="item-description">{item.description}</p>
+                            <p className="item-end-description">As always, one purchased = one donated.</p>
                             <p className="item-price">Price: ${item.price}</p>
                             <p className="pairs-donated">PAIRS DONATED: {item.quantity}</p>
                             {item.quantity < 1 ? <Button disabled className="add-to-cart-btn">Sold out</Button> : <Button className="add-to-cart-btn" disabled={localStorage.token ? false : true} onClick={fetchToCart}>ADD TO CART</Button>}
