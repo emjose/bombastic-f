@@ -233,6 +233,14 @@ body{
   margin-top: -7.9vw;
 }
 
+/* .red-label{
+  color: black;
+} */
+
+.color-labels{
+  margin-left: .75vw;
+}
+
 .item-description{
   margin-top: 5vh !important;
   font-size: 1.1vw;

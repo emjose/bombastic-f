@@ -14,7 +14,7 @@ const FilterItemsContainer = (props) => {
     return (
         <div className="filter-container">
             <Menu text vertical>
-                <Menu.Item header>Price</Menu.Item>
+                <Menu.Item header>PRICE</Menu.Item>
                 <Form>
                     <div className="sort-by-input">
                         <Form.Input
@@ -68,3 +68,45 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps, { sortByPrice })(FilterItemsContainer);
+
+{/* <div className="color-labels">               
+    <div>
+    <a class="huge ui red empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui orange empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui yellow empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui olive empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui green empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui teal empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui blue empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui violet empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui purple empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui pink empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui brown empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui grey empty circular label"></a>
+    </div>
+    <div>
+    <a class="huge ui black empty circular label"></a>
+    </div>
+</div>  */}
