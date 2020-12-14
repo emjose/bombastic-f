@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ItemContainer from './ItemContainer'
 import FilterItemsContainer from './FilterItemsContainer'
 import SearchForm from './SearchForm'
+// import SideBarContainer from './SideBarContainer'
 
 
 class HomeContainer extends Component {
