@@ -2,9 +2,9 @@
 #
 ![Table of Contents](headers/inter-toc.png) 
 
-- [Background](#inter-background)
+- [Copyright](#inter-copyright)
 
-- [Back End Repo](#inter-backend-repo)
+- [Features](#inter-features)
 #
 ![Background](headers/inter-background.png) 
 
