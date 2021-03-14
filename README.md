@@ -72,6 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Bombastic](headers/inter-bombastic-3.png) 
 #
 
+![Bombastic](headers/lb-bombastic.png) 
+#
+
+![Bombastic](headers/db-bombastic.png) 
+#
+
 <br>
 
 ![Bombastic](headers/header-bombastic-4.png) 
