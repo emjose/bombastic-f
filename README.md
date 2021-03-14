@@ -34,11 +34,13 @@ test
 test\
 test
 #
-<p id="copyright">![Copyright](headers/inter-copyright.png) </p>
-# Copyright
+
+![Copyright](headers/inter-copyright.png)  
+<p id="copyright">
 test\
 test
 #
+<p>
 
 
 
