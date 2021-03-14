@@ -3,7 +3,6 @@
 ![Table of Contents](headers/inter-toc.png) 
 
 - [Copyright](#copyright)
-- [Features](#features)
 #
 ![Background](headers/inter-background.png) 
 
@@ -35,6 +34,7 @@ test\
 test
 #
 ![Copyright](headers/inter-copyright.png) 
+# Copyright
 test\
 test
 #
