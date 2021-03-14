@@ -84,10 +84,10 @@ test\
 test\
 test\
 #
-<p id="copyright">&nbsp;<p>
 
 ![Copyright](headers/inter-copyright.png)  
 
+<p id="copyright">&nbsp;<p>
 test\
 test
 
@@ -96,7 +96,7 @@ test
 
 
 
-
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
 <!-- # Getting Started with Create React App
 
