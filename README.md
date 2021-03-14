@@ -1,3 +1,12 @@
+![Bombastic](headers/inter-center-bombastic.png) 
+#
+
+
+
+
+
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,51 +77,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
-
-![Bombastic](headers/inter-bombastic-3.png) 
-#
-
-![Bombastic](headers/lb-bombastic.png) 
-#
-
-![Bombastic](headers/db-bombastic.png) 
-#
-
-![Bombastic](headers/tblue-bombastic.png) 
-#
-
-text 
-
-text
-
-• text\
-• text
-
-<br>
-
-![Bombastic](headers/header-bombastic-4.png) 
-
-![Bombastic](headers/header-bombastic.png) 
-
-test
-
-test
-
-- item 1
-- item 2
-- item 3
-
-#
-![Bombastic](headers/header-bombastic-2.png) 
-
-test
-test
-• test
-• test
-#
-![Getting Started](headers/header-getting-started.png) 
-#
-test
-test
-• test
-• test
