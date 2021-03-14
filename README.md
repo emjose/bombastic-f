@@ -1,52 +1,115 @@
+<p id="bombastic"><p>
+
 ![Bombastic](headers/inter-center-bombastic.png) 
 #
 ![Table of Contents](headers/inter-toc.png) 
 
+- [Background](#background) 
+- [Back End Repo](#back-end-repo) 
+- [Technologies](#technologies) 
+- [Getting Started](#getting-started) 
+- [Installation](#installation) 
+- [features](#features) 
+- [domain-model](#domain-model) 
 - [Copyright](#copyright) 
 
 #
+<p id="background"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Background](headers/inter-background.png) 
 
 test\
-test
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
 #
+<p id="back-end-repo"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Back End Repo](headers/inter-backend-repo.png) 
 test\
-test
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
 #
+<p id="technologies"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Technologies](headers/inter-technologies.png) 
 test\
-test
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
 #
+<p id="getting-started"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Getting Started](headers/inter-getting-started.png) 
 • test\
-• test
+• test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
 #
+<p id="installation"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Installation](headers/inter-installation.png) 
 test\
-test
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
 #
+<p id="features"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Features](headers/inter-features.png) 
 test\
-test
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
+test\
 #
+<p id="domain-model"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
 ![Domain Model](headers/inter-domain-model.png) 
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
+
 test\
 test\
 test\
@@ -84,19 +147,24 @@ test\
 test\
 test\
 #
+<p id="copyright"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
 ![Copyright](headers/inter-copyright.png)  
 
-<p id="copyright">&nbsp;<p>
 test\
-test
+test\
+
+<a href=#bombastic>![Back to Top](headers/inter-back-to-top.png)  
 
 
 
 
 
 
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
+
+
 
 <!-- # Getting Started with Create React App
 
