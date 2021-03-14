@@ -1,6 +1,7 @@
 <p id="bombastic"><p>
 
-![Bombastic](headers/inter-center-bombastic.png) 
+<!-- ![Bombastic](headers/inter-center-bombastic.png)  -->
+![Bombastic](headers/inter-gradient-bombastic.png) 
 #
 ![Table of Contents](headers/inter-toc.png) 
 
