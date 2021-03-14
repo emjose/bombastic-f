@@ -2,9 +2,8 @@
 #
 ![Table of Contents](headers/inter-toc.png) 
 
-- [Copyright](#headers/inter-copyright.png)
-
-- [Features](#headers/inter-features.png)
+- [Copyright](#copyright)
+- [Features](#features)
 #
 ![Background](headers/inter-background.png) 
 
