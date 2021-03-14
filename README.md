@@ -75,9 +75,9 @@ test
 
 test
 
-• test
-
-• test
+- item 1
+- item 2
+- item 3
 
 #
 ![Bombastic](header-bombastic-2.png) 
