@@ -2,7 +2,7 @@
 #
 ![Table of Contents](headers/inter-toc.png) 
 
-- [Copyright](headers/inter-copyright.png) 
+- [Copyright](#copyright) 
 
 #
 ![Background](headers/inter-background.png) 
@@ -34,7 +34,7 @@ test
 test\
 test
 #
-![Copyright](headers/inter-copyright.png) 
+<p id="copyright">![Copyright](headers/inter-copyright.png) </p>
 # Copyright
 test\
 test
