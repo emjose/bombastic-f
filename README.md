@@ -10,8 +10,9 @@
 - [Technologies](#technologies) 
 - [Getting Started](#getting-started) 
 - [Installation](#installation) 
-- [features](#features) 
-- [domain-model](#domain-model) 
+- [Features](#features) 
+- [Domain Model](#domain-model) 
+- [Demos](#demos)
 - [Copyright](#copyright) 
 
 #
@@ -29,7 +30,7 @@ test\
 test\
 test\
 test\
-test\
+test
 #
 <p id="back-end-repo"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -44,7 +45,7 @@ test\
 test\
 test\
 test\
-test\
+test
 #
 <p id="technologies"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -59,7 +60,7 @@ test\
 test\
 test\
 test\
-test\
+test
 #
 <p id="getting-started"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -74,7 +75,7 @@ test\
 test\
 test\
 test\
-test\
+test
 #
 <p id="installation"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -89,7 +90,7 @@ test\
 test\
 test\
 test\
-test\
+test
 #
 <p id="features"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -104,7 +105,7 @@ test\
 test\
 test\
 test\
-test\
+test
 #
 <p id="domain-model"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -120,6 +121,13 @@ test\
 test\
 test\
 test\
+test
+#
+<p id="demos"><p>
+<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
+
+![Demos](gradient/inter-demos.png) 
+
 test\
 test\
 test\
@@ -129,24 +137,7 @@ test\
 test\
 test\
 test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
+test
 #
 <p id="copyright"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
@@ -154,7 +145,7 @@ test\
 ![Copyright](gradient/inter-copyright.png)  
 
 test\
-test\
+test
 
 <a href=#bombastic>![Back to Top](gradient/inter-back-to-top.png)  
 
