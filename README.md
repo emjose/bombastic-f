@@ -1,9 +1,9 @@
 <p id="bombastic"><p>
 
 <!-- ![Bombastic](headers/inter-center-bombastic.png)  -->
-![Bombastic](headers/inter-gradient-bombastic.png) 
+![Bombastic](gradient/inter-bombastic.png) 
 #
-![Table of Contents](headers/inter-toc.png) 
+![Table of Contents](gradient/inter-toc.png) 
 
 - [Background](#background) 
 - [Back End Repo](#back-end-repo) 
@@ -18,7 +18,7 @@
 <p id="background"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Background](headers/inter-background.png) 
+![Background](gradient/inter-background.png) 
 
 test\
 test\
@@ -34,7 +34,7 @@ test\
 <p id="back-end-repo"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Back End Repo](headers/inter-backend-repo.png) 
+![Back End Repo](gradient/inter-backend-repo.png) 
 test\
 test\
 test\
@@ -49,7 +49,7 @@ test\
 <p id="technologies"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Technologies](headers/inter-technologies.png) 
+![Technologies](gradient/inter-technologies.png) 
 test\
 test\
 test\
@@ -64,7 +64,7 @@ test\
 <p id="getting-started"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Getting Started](headers/inter-getting-started.png) 
+![Getting Started](gradient/inter-getting-started.png) 
 • test\
 • test\
 test\
@@ -79,7 +79,7 @@ test\
 <p id="installation"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Installation](headers/inter-installation.png) 
+![Installation](gradient/inter-installation.png) 
 test\
 test\
 test\
@@ -94,7 +94,7 @@ test\
 <p id="features"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Features](headers/inter-features.png) 
+![Features](gradient/inter-features.png) 
 test\
 test\
 test\
@@ -109,7 +109,7 @@ test\
 <p id="domain-model"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Domain Model](headers/inter-domain-model.png) 
+![Domain Model](gradient/inter-domain-model.png) 
 
 test\
 test\
@@ -151,12 +151,12 @@ test\
 <p id="copyright"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-![Copyright](headers/inter-copyright.png)  
+![Copyright](gradient/inter-copyright.png)  
 
 test\
 test\
 
-<a href=#bombastic>![Back to Top](headers/inter-back-to-top.png)  
+<a href=#bombastic>![Back to Top](gradient/inter-back-to-top.png)  
 
 
 
