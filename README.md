@@ -10,7 +10,7 @@
 <a href=#table-of-contents>![Table of Contents](gradient/inter-toc.png)</a>  
 
 - [Background](#background) 
-- [Back End Repo](#back-end-repo) 
+- [Backend Repo](#backend-repo) 
 - [Technologies](#technologies) 
 - [Getting Started](#getting-started) 
 - [Installation](#installation) 
@@ -37,7 +37,7 @@ test\
 test\
 test
 #
-<p id="back-end-repo"><p>
+<p id="backend-repo"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
 <a href=#table-of-contents>![Back End Repo](gradient/inter-backend-repo.png)</a>  
