@@ -24,7 +24,7 @@
 <p id="background"><p>
 <!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Background](Assetsinter-background.png)</a>  
+<a href=#table-of-contents>![Background](Assets/inter-background.png)</a>  
 
 test\
 test\
