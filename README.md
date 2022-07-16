@@ -16,6 +16,7 @@
 -   [Installation](#installation)
 -   [Demo & Features](#demo-and-features)
 -   [Domain Model](#domain-model)
+-   [Resources](#resources)
 -   [Copyright](#copyright)
 -   [Let's Connect!](#lets-connect)
 
@@ -53,41 +54,43 @@
 
 <p id="prerequisites"><p>
 
-<a href=#prerequisites>![Back End Repo](Assets/inter-prerequisites.png)</a>
+<a href=#prerequisites>![Prerequisites](Assets/inter-prerequisites.png)</a>
 
 **Ensure you have the latest versions of the following:**
 
-**[Homebrew](https://brew.sh/)**
+<br>
+
+-   **[Homebrew](https://brew.sh/)**
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-**[Ruby](https://www.ruby-lang.org/en/)**
+-   **[Ruby](https://www.ruby-lang.org/en/)**
 
 ```
 brew install Ruby
 ```
 
-**[Rails](https://rubyonrails.org/)**
+-   **[Rails](https://rubyonrails.org/)**
 
 ```
 gem install Rails
 ```
 
-**[Node.js](https://nodejs.org/en/download/)**
+-   **[Node.js](https://nodejs.org/en/download/)**
 
 ```
 npm install -g npm
 ```
 
-**[PostgreSQL](https://www.postgresql.org/)**
+-   **[PostgreSQL](https://www.postgresql.org/)**
 
 ```
 brew install postgresql
 ```
 
-**[Google Chrome JSON formatter extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)**
+-   **[Google Chrome JSON formatter extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)**
 
 <br>
 
@@ -107,7 +110,7 @@ brew install postgresql
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 ```
 
--   **Create an `.env` file in the main project directory. See [backend installation](https://github.com/emjose/bombastic-b/#installation) for Stripe API implementation.**
+-   **Create an `.env` file in the main project directory.**
 
 -   **Copy and paste the variable below in the `.env` file. Insert your Stripe API key within the quotes.**
 
@@ -131,6 +134,14 @@ npm start
 
 #
 
+<p id="demo-and-features"><p>
+
+<a href=#demo-and-features>![Demo and Features](Assets/inter-demo-and-features.png)</a>
+
+[YouTube video demo](https://youtu.be/qo_YDasFpkM)
+
+#
+
 <p id="domain-model"><p>
 
 <a href=#domain-model>![Domain Model](Assets/inter-domain-model.png)</a>
@@ -143,11 +154,13 @@ npm start
 
 #
 
-<p id="demo-and-features"><p>
+<p id="resources"><p>
 
-<a href=#demo-and-features>![Demos](Assets/inter-demo-and-features.png)</a>
+<a href=#resources>![Resources](Assets/inter-resources.png)</a>
 
-[YouTube video demo](https://youtu.be/qo_YDasFpkM)
+-   This project is made for educational purposes only.
+
+-   Products and product images copyright of © [Bombas](https://bombas.com/). All Rights Reserved.
 
 #
 
