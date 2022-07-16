@@ -11,21 +11,12 @@
 <a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>
 
 -   [Background](#background)
-
--   [Backend Repo](#backend-repo)
-
-<!-- -   [Technologies](#technologies)
--   [Getting Started](#getting-started) -->
-
+-   [Technologies](#technologies)
+-   [Prerequisites](#prerequisites)
 -   [Installation](#installation)
-
-<!-- -   [Features](#features)
--   [Domain Model](#domain-model) -->
-
--   [Demos](#demos)
-
+-   [Demo & Features](#demo-and-features)
+-   [Domain Model](#domain-model)
 -   [Copyright](#copyright)
-
 -   [Let's Connect!](#lets-connect)
 
 #
@@ -48,14 +39,6 @@
 
 #
 
-<p id="backend-repo"><p>
-
-<a href=#backend-repo>![Back End Repo](Assets/inter-backend-repo.png)</a>
-
-**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/)**
-
-<!-- #
-
 <p id="technologies"><p>
 
 <a href=#technologies>![Technologies](Assets/inter-technologies.png)</a>
@@ -68,15 +51,45 @@
 
 #
 
-<p id="getting-started"><p>
+<p id="prerequisites"><p>
 
-<a href=#getting-started>![Getting Started](Assets/inter-getting-started.png)</a>
+<a href=#prerequisites>![Back End Repo](Assets/inter-prerequisites.png)</a>
 
--   lorem
+**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/)**
 
--   lorem
+**Ensure you have the latest version of the following:**
 
--   lorem -->
+**[Homebrew](https://brew.sh/)**
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+**[Ruby](https://www.ruby-lang.org/en/)**
+
+```
+brew install Ruby
+```
+
+**[Rails](https://rubyonrails.org/)**
+
+```
+gem install Rails
+```
+
+**[Node.js](https://nodejs.org/en/download/)**
+
+```
+npm install -g npm
+```
+
+**[PostgreSQL](https://www.postgresql.org/)**
+
+```
+brew install postgresql
+```
+
+**[Google Chrome JSON formatter extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)**
 
 #
 
@@ -85,8 +98,6 @@
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
 **1. Install [Rails Bombastic Backend API](https://github.com/emjose/bombastic-b#installation).**
-
-**2. Install [Node.js](https://nodejs.org/en/download/).**
 
 **3. Git clone and cd into the folder.**
 
@@ -116,18 +127,6 @@ npm install
 npm start
 ```
 
-<!-- #
-
-<p id="features"><p>
-
-<a href=#features>![Features](Assets/inter-features.png)</a>
-
--   lorem
-
--   lorem
-
--   lorem
-
 #
 
 <p id="domain-model"><p>
@@ -138,13 +137,13 @@ npm start
 
 -   lorem
 
--   lorem -->
+-   lorem
 
 #
 
-<p id="demos"><p>
+<p id="demo-and-features"><p>
 
-<a href=#demos>![Demos](Assets/inter-demos.png)</a>
+<a href=#demo-and-features>![Demos](Assets/inter-demo-and-features.png)</a>
 
 [YouTube video demo](https://youtu.be/qo_YDasFpkM)
 
