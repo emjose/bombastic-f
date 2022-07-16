@@ -88,15 +88,23 @@
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 ```
 
-**4. Install dependencies.**
+**4. Create an `.env` file in the main project directory. See [backend installation](https://github.com/emjose/bombastic-b/#installation) for Stripe API implementation.**
+
+**5. Paste Stripe API variable in the `.env` file, with your secret Stripe API key in quotes.**
+
+```
+STRIPE_API_KEY = "insert your secret key here"
+```
+
+**6. Install dependencies.**
 
 ```
 npm install
 ```
 
-**5. Ensure the [Rails backend server](https://github.com/emjose/bombastic-b#installation) is running by visiting http://localhost:3000/items on the Chrome browser.**
+**7. Ensure the [Rails backend server](https://github.com/emjose/bombastic-b#installation) is running by visiting http://localhost:3000/items on the Chrome browser.**
 
-**6. Launch the React app.**
+**8. Launch the React app.**
 
 ```
 npm start
