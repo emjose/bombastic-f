@@ -31,7 +31,7 @@
 
 -   Bombastic implements the [Stripe API](https://stripe.com/docs/keys) for mock purchases.
 
--   **Backend:** Ruby and Rails
+-   **[Bombastic Backend](https://github.com/emjose/bombastic-b/)** Ruby and Rails
 
 -   **Frontend:** React and Redux
 
@@ -55,9 +55,7 @@
 
 <a href=#prerequisites>![Back End Repo](Assets/inter-prerequisites.png)</a>
 
-**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/)**
-
-**Ensure you have the latest version of the following:**
+**Ensure you have the latest versions of the following:**
 
 **[Homebrew](https://brew.sh/)**
 
@@ -91,37 +89,41 @@ brew install postgresql
 
 **[Google Chrome JSON formatter extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)**
 
+<br>
+
 #
 
 <p id="installation"><p>
 
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
-**1. Install [Rails Bombastic Backend API](https://github.com/emjose/bombastic-b#installation).**
+-   **First install the [Bombastic backend server](https://github.com/emjose/bombastic-b/#installation).**
 
-**3. Git clone and cd into the folder.**
+-   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
+
+-   **Git clone and cd into the folder.**
 
 ```
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 ```
 
-**4. Create an `.env` file in the main project directory. See [backend installation](https://github.com/emjose/bombastic-b/#installation) for Stripe API implementation.**
+-   **Create an `.env` file in the main project directory. See [backend installation](https://github.com/emjose/bombastic-b/#installation) for Stripe API implementation.**
 
-**5. Paste Stripe API variable in the `.env` file, with your secret Stripe API key in quotes.**
+-   **Copy and paste the variable below in the `.env` file. Insert your Stripe API key within the quotes.**
 
 ```
 STRIPE_API_KEY = "insert your secret key here"
 ```
 
-**6. Install dependencies.**
+-   **Install dependencies.**
 
 ```
 npm install
 ```
 
-**7. Ensure the [Rails backend server](https://github.com/emjose/bombastic-b#installation) is running by visiting http://localhost:3000/items on the Chrome browser.**
+-   **Ensure the [Bombastic backend server](https://github.com/emjose/bombastic-b#installation) is up by visiting http://localhost:3000/items on the Chrome browser.**
 
-**8. Launch the React app.**
+-   **Launch the React app.** Enter "y" if prompted to open in a different port.
 
 ```
 npm start
