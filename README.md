@@ -1,160 +1,152 @@
 <p id="bombastic"><p>
 
 <!-- ![Bombastic](headers/inter-center-bombastic.png)  -->
-<a href=#table-of-contents>![Bombastic](Assets/inter-bombastic.png)</a> 
+
+<a href=#table-of-contents>![Bombastic](Assets/inter-bombastic.png)</a>
 
 #
+
 <p id="table-of-contents"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>  
+<a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>
 
-- [Background](#background) 
-- [Backend Repo](#backend-repo) 
-- [Technologies](#technologies) 
-- [Getting Started](#getting-started) 
-- [Installation](#installation) 
-- [Features](#features) 
-- [Domain Model](#domain-model) 
-- [Demos](#demos)
-- [Copyright](#copyright)
-- [Let's Connect!](#lets-connect) 
+-   [Background](#background)
+
+-   [Backend Repo](#backend-repo)
+
+<!-- -   [Technologies](#technologies)
+-   [Getting Started](#getting-started) -->
+
+-   [Installation](#installation)
+
+<!-- -   [Features](#features)
+-   [Domain Model](#domain-model) -->
+
+-   [Demos](#demos)
+
+-   [Copyright](#copyright)
+
+-   [Let's Connect!](#lets-connect)
 
 #
+
 <p id="background"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Background](Assets/inter-background.png)</a>  
+<a href=#background>![Background](Assets/inter-background.png)</a>
 
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
+-   Bombastic is a mock e-commerce app inspired by the [Bombas](https://bombas.com/) apparel brand.
+
+-   Bombas has a one purchased, one donated business model.
+
+-   More README content to be added soon!
+
 #
+
 <p id="backend-repo"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Back End Repo](Assets/inter-backend-repo.png)</a>  
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
-#
+<a href=#backend-repo>![Back End Repo](Assets/inter-backend-repo.png)</a>
+
+**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/)**
+
+<!-- #
+
 <p id="technologies"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Technologies](Assets/inter-technologies.png)</a>  
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
+<a href=#technologies>![Technologies](Assets/inter-technologies.png)</a>
+
+-   lorem
+
+-   lorem
+
+-   lorem
+
 #
+
 <p id="getting-started"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Getting Started](Assets/inter-getting-started.png)</a>  
-• test\
-• test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
+<a href=#getting-started>![Getting Started](Assets/inter-getting-started.png)</a>
+
+-   lorem
+
+-   lorem
+
+-   lorem -->
+
 #
+
 <p id="installation"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Installation](Assets/inter-installation.png)</a>  
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
-#
+<a href=#installation>![Installation](Assets/inter-installation.png)</a>
+
+**1. Install [Rails Bombastic Backend API](https://github.com/emjose/bombastic-b#installation).**
+
+**2. Install [Node.js](https://nodejs.org/en/download/).**
+
+**3. Git clone and cd into the folder.**
+
+```
+git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
+```
+
+**4. Install dependencies.**
+
+```
+npm install
+```
+
+**5. Ensure the [Rails backend server](https://github.com/emjose/bombastic-b#installation) is running by visiting http://localhost:3000/items on the Chrome browser.**
+
+**6. Launch the React app.**
+
+```
+npm start
+```
+
+<!-- #
+
 <p id="features"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Features](Assets/inter-features.png)</a>  
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
+<a href=#features>![Features](Assets/inter-features.png)</a>
+
+-   lorem
+
+-   lorem
+
+-   lorem
+
 #
+
 <p id="domain-model"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Domain Model](Assets/inter-domain-model.png)</a>  
+<a href=#domain-model>![Domain Model](Assets/inter-domain-model.png)</a>
 
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
+-   lorem
+
+-   lorem
+
+-   lorem -->
+
 #
+
 <p id="demos"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Demos](Assets/inter-demos.png)</a>  
+<a href=#demos>![Demos](Assets/inter-demos.png)</a>
 
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test\
-test
+[YouTube video demo](https://youtu.be/qo_YDasFpkM)
+
 #
+
 <p id="copyright"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
-<a href=#table-of-contents>![Copyright](Assets/inter-copyright.png)</a>   
+<a href=#copyright>![Copyright](Assets/inter-copyright.png)</a>
 
-test\
-test
+-   This project is made for educational purposes only.
+
+-   Products and product images copyright of © [Bombas](https://bombas.com/). All Rights Reserved.
+
 #
 
 <p id="lets-connect"><p>
-<!-- For Table of Contents, anchor the banner image with corresponding p tag. -->
 
 <a href=#table-of-contents>![Let's Connect](Assets/inter-lets-connect.png)</a>
 
@@ -162,17 +154,7 @@ test
 
 #
 
-<a href=#bombastic>![Back to Top](Assets/inter-congrats.png)</a> 
-
-
-
-
-
-
-
-
-
-
+<a href=#bombastic>![Back to Top](Assets/inter-congrats.png)</a>
 
 <!-- # Getting Started with Create React App
 
