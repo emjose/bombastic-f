@@ -33,7 +33,7 @@
 
 -   Bombas has a mission-driven, [one purchased, one donated](https://bombas.com/pages/giving-back?campignid=1392646001&adgroupid=54889553717&targetid=kwd-300272104456&matchtype=b&network=g&device=c&keywords=%2Bbombas&creative=597211240056&gclid=CjwKCAjww8mWBhABEiwAl6-2Rf62a6fGVfHkT6iwJzB0GyxsjRgync2nfUROlT1dQ8h1NNeeoFtGzRoCsHoQAvD_BwE) business model.
 
--   Bombastic implements the [Stripe API](https://stripe.com/docs/keys) for mock purchases.
+-   Bombastic implements the [Stripe API](https://stripe.com/docs/keys) for mock credit card purchases.
 
 -   Bombastic was created in October and November of 2020 for my Flatiron School capstone project.
 
@@ -233,13 +233,13 @@ Would you like to run the app on another port instead? (Y/n)
 
 **[Click for YouTube demo](https://youtu.be/qo_YDasFpkM)**
 
-<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-1.gif)</a>
 
 <details>
-<summary>GIF demo:</summary>
+<summary>GIF demo: Viewing individual product</summary>
 <br>
 
-<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
 </details>
 
@@ -247,7 +247,7 @@ Would you like to run the app on another port instead? (Y/n)
 <summary>GIF demo:</summary>
 <br>
 
-<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
 </details>
 
@@ -255,7 +255,7 @@ Would you like to run the app on another port instead? (Y/n)
 <summary>GIF demo:</summary>
 <br>
 
-<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
 </details>
 
@@ -263,7 +263,7 @@ Would you like to run the app on another port instead? (Y/n)
 <summary>GIF demo:</summary>
 <br>
 
-<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
 </details>
 
@@ -271,7 +271,7 @@ Would you like to run the app on another port instead? (Y/n)
 <summary>GIF demo:</summary>
 <br>
 
-<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
 </details>
 
