@@ -236,10 +236,10 @@ Would you like to run the app on another port instead? (Y/n)
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-1.gif)</a>
 
 <details>
-<summary>GIF demo: Viewing individual product</summary>
+<summary>GIF demo: Viewing individual product page</summary>
 <br>
 
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-2.gif)</a>
 
 </details>
 
