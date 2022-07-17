@@ -224,13 +224,116 @@ npm start
 
 <a href=#domain-model>![Domain Model](Assets/inter-domain-model.png)</a>
 
--   lorem
-
--   lorem
-
--   lorem
-
 <a href=#domain-model>![Domain Model Chart](Assets/inter-domain.png)</a>
+
+<br>
+
+**Models and Relationships**
+
+View [bombastic-b/app/models](https://github.com/emjose/bombastic-b/tree/main/app/models) or click each model below.
+
+<details>
+<summary>CartJoiner</summary>
+<br>
+
+```
+class CartJoiner < ApplicationRecord
+  belongs_to :cart
+  belongs_to :item
+end
+```
+
+</details>
+
+<details>
+<summary>Cart</summary>
+<br>
+
+```
+class Cart < ApplicationRecord
+  belongs_to :user
+  has_many :cart_joiners, dependent: :destroy
+  has_many :items, through: :cart_joiners
+end
+```
+
+</details>
+
+<details>
+<summary>Item</summary>
+<br>
+
+```
+class Item < ApplicationRecord
+    has_many :reviews, dependent: :destroy
+    has_many :users, through: :reviews
+    has_many :cart_joiners, dependent: :destroy
+    has_many :carts, through: :cart_joiners
+    has_many :order_joiners, dependent: :destroy
+    has_many :orders, through: :order_joiners
+end
+```
+
+</details>
+
+<details>
+<summary>OrderJoiner</summary>
+<br>
+
+```
+class OrderJoiner < ApplicationRecord
+  belongs_to :order
+  belongs_to :item
+end
+```
+
+</details>
+
+<details>
+<summary>Order</summary>
+<br>
+
+```
+class Order < ApplicationRecord
+  belongs_to :user
+  has_many :order_joiners, dependent: :destroy
+  has_many :items, through: :order_joiners
+end
+```
+
+</details>
+
+<details>
+<summary>Review</summary>
+<br>
+
+```
+class Review < ApplicationRecord
+  belongs_to :user
+  belongs_to :item
+end
+```
+
+</details>
+
+<details>
+<summary>User</summary>
+<br>
+
+```
+class User < ApplicationRecord
+    has_secure_password
+
+    validates :username, uniqueness: true
+    has_many :reviews, dependent: :destroy
+    has_many :items, through: :reviews
+    has_one :cart, dependent: :destroy
+    has_many :orders, dependent: :destroy
+    has_many :cart_joiners, through: :orders
+end
+```
+
+</details>
 
 #
 
