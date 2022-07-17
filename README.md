@@ -173,6 +173,8 @@ rails s -p 3000
 
 -   **On Chrome browser, view the JSON database locally at http://localhost:3000/items**
 
+-   **Follow all Frontend Installation steps below.**
+
 <br>
 
 #
