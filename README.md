@@ -26,7 +26,7 @@
 
 <a href=#background>![Background](Assets/inter-background.png)</a>
 
--   Bombastic is a mock e-commerce app inspired by the [Bombas](https://bombas.com/) apparel brand.
+-   Bombastic is a mock e-commerce app inspired by the [Bombas](https://bombas.com/) sock apparel brand.
 
 -   Bombas has a mission-driven, [one purchased, one donated](https://bombas.com/pages/giving-back?campignid=1392646001&adgroupid=54889553717&targetid=kwd-300272104456&matchtype=b&network=g&device=c&keywords=%2Bbombas&creative=597211240056&gclid=CjwKCAjww8mWBhABEiwAl6-2Rf62a6fGVfHkT6iwJzB0GyxsjRgync2nfUROlT1dQ8h1NNeeoFtGzRoCsHoQAvD_BwE) business model.
 
@@ -40,7 +40,7 @@
 
 <a href=#technologies>![Technologies](Assets/inter-technologies.png)</a>
 
-**[Bombastic Backend](https://github.com/emjose/bombastic-b/#bombastic)**
+**Bombastic Backend: [Repo](https://github.com/emjose/bombastic-b/#bombastic)**
 
 -   [Ruby](https://www.ruby-lang.org/en/)
 -   [Rails](https://rubyonrails.org/)
@@ -52,7 +52,7 @@
 -   [Active Model Serializers](https://github.com/rails-api/active_model_serializers)
 -   [Cloudinary image storage](https://cloudinary.com/)
 
-**[Bombastic Frontend](https://github.com/emjose/bombastic-f/#technologies)**
+**Bombastic Frontend: [Repo](https://github.com/emjose/bombastic-f/#technologies)**
 
 -   [React.js](https://reactjs.org/)
 -   [Redux.js](https://redux.js.org/)
@@ -69,8 +69,8 @@
 
 <a href=#prerequisites>![Prerequisites](Assets/inter-prerequisites.png)</a>
 
-**Ensure you have the latest versions of the following:**
-
+<details>
+<summary><b>Click to expand - Ensure you have the latest versions of the following:</b></summary>
 <br>
 
 -   **[Homebrew](https://brew.sh/)**
@@ -111,6 +111,8 @@ brew install postgresql
 
 -   [Stripe API Documentation](https://stripe.com/docs/keys)
 -   [Using Stripe API with React and Ruby](https://medium.com/@gaidaescobar/using-stripe-api-with-react-and-ruby-b50c533a697f)
+
+</details>
 
 <br>
 
