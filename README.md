@@ -2,7 +2,7 @@
 
 <!-- ![Bombastic](headers/inter-center-bombastic.png)  -->
 
-<a href=#table-of-contents>![Bombastic](Assets/inter-bombastic.png)</a>
+<a href=#table-of-contents>![Bombastic](Assets/inter-bombastic-frontend.png)</a>
 
 #
 
@@ -28,13 +28,9 @@
 
 -   Bombastic is a mock e-commerce app inspired by the [Bombas](https://bombas.com/) apparel brand.
 
--   Bombas has a [one purchased, one donated](https://bombas.com/pages/giving-back?campignid=1392646001&adgroupid=54889553717&targetid=kwd-300272104456&matchtype=b&network=g&device=c&keywords=%2Bbombas&creative=597211240056&gclid=CjwKCAjww8mWBhABEiwAl6-2Rf62a6fGVfHkT6iwJzB0GyxsjRgync2nfUROlT1dQ8h1NNeeoFtGzRoCsHoQAvD_BwE) business model.
+-   Bombas has a mission-driven, [one purchased, one donated](https://bombas.com/pages/giving-back?campignid=1392646001&adgroupid=54889553717&targetid=kwd-300272104456&matchtype=b&network=g&device=c&keywords=%2Bbombas&creative=597211240056&gclid=CjwKCAjww8mWBhABEiwAl6-2Rf62a6fGVfHkT6iwJzB0GyxsjRgync2nfUROlT1dQ8h1NNeeoFtGzRoCsHoQAvD_BwE) business model.
 
 -   Bombastic implements the [Stripe API](https://stripe.com/docs/keys) for mock purchases.
-
--   **[Bombastic Backend](https://github.com/emjose/bombastic-b/)** Ruby and Rails
-
--   **Frontend:** React and Redux
 
 -   **More README content to be added soon!**
 
@@ -44,11 +40,28 @@
 
 <a href=#technologies>![Technologies](Assets/inter-technologies.png)</a>
 
--   lorem
+**[Bombastic Backend](https://github.com/emjose/bombastic-b/#bombastic)**
 
--   lorem
+-   [Ruby](https://www.ruby-lang.org/en/)
+-   [Rails](https://rubyonrails.org/)
+-   [Stripe API](https://stripe.com/docs/api)
+-   [PostgreSQL](https://www.postgresql.org/)
+-   [BCrypt Gem](https://github.com/bcrypt-ruby/bcrypt-ruby)
+-   [Dotenv Gem](https://github.com/bkeepers/dotenv)
+-   [JSON Web Tokens](https://auth0.com/docs/secure/tokens/json-web-tokens)
+-   [Active Model Serializers](https://github.com/rails-api/active_model_serializers)
+-   [Cloudinary image storage](https://cloudinary.com/)
 
--   lorem
+**[Bombastic Frontend](https://github.com/emjose/bombastic-f/#technologies)**
+
+-   [React.js](https://reactjs.org/)
+-   [Redux.js](https://redux.js.org/)
+-   [Stripe API](https://stripe.com/docs/api)
+-   [Semantic UI](https://semantic-ui.com/)
+-   [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+-   [CSS3 Styling](https://www.tutorialrepublic.com/css-tutorial/)
+-   [React Stripe Checkout](https://www.npmjs.com/package/react-stripe-checkout)
+-   [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
 #
 
@@ -94,6 +107,13 @@ brew install postgresql
 
 <br>
 
+**Create Stripe account and retrieve Stripe API key.**
+
+-   [Stripe API Documentation](https://stripe.com/docs/keys)
+-   [Using Stripe API with React and Ruby](https://medium.com/@gaidaescobar/using-stripe-api-with-react-and-ruby-b50c533a697f)
+
+<br>
+
 #
 
 <p id="installation"><p>
@@ -112,7 +132,7 @@ git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 
 -   **Create an `.env` file in the main project directory.**
 
--   **Copy and paste the variable below in the `.env` file. Insert your Stripe API key within the quotes.**
+-   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
 
 ```
 STRIPE_API_KEY = "insert your secret key here"
@@ -124,7 +144,7 @@ STRIPE_API_KEY = "insert your secret key here"
 npm install
 ```
 
--   **Ensure the [Bombastic backend server](https://github.com/emjose/bombastic-b#installation) is up by visiting http://localhost:3000/items on the Chrome browser.**
+-   **Ensure the [Bombastic server](https://github.com/emjose/bombastic-b#installation) is up by visiting http://localhost:3000/items on the Chrome browser.**
 
 -   **Launch the React app.** Enter "y" if prompted to open in a different port.
 
