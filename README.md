@@ -122,15 +122,69 @@ brew install postgresql
 
 <a href=#installation>![Installation](Assets/inter-installation.png)</a>
 
--   **First install the [Bombastic backend server](https://github.com/emjose/bombastic-b/#installation).**
+<details>
+<summary><b>Click to expand - Backend Installation:</b></summary>
+<br>
+
+-   **Git clone and cd into the folder.**
+
+```
+git clone git@github.com:emjose/bombastic-b.git && cd bombastic-b
+```
 
 -   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
+
+-   **Create an `.env` file in the main project directory.**
+
+-   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
+
+```
+STRIPE_API_KEY = "insert your secret key here"
+```
+
+-   **Install dependencies.**
+
+```
+bundle install
+```
+
+-   **Create Rails database, migrations, and seed data.**
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+-   **Launch the Rails server. Best viewed on Chrome browser.**
+
+```
+rails s -p 3000
+```
+
+-   **On Chrome browser, view the JSON database locally at http://localhost:3000/items**
+
+<br>
+
+#
+
+</details>
+
+<br>
+
+<details>
+<summary><b>Click to expand - Frontend Installation:</b></summary>
+<br>
+
+-   **Follow all Backend Installation steps above.**
 
 -   **Git clone and cd into the folder.**
 
 ```
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 ```
+
+-   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
 
 -   **Create an `.env` file in the main project directory.**
 
@@ -146,13 +200,15 @@ STRIPE_API_KEY = "insert your secret key here"
 npm install
 ```
 
--   **Ensure the [Bombastic server](https://github.com/emjose/bombastic-b#installation) is up by visiting http://localhost:3000/items on the Chrome browser.**
-
--   **Launch the React app.** Enter "y" if prompted to open in a different port.
+-   **Launch the React app.** Enter "y" if prompted to launch in a different port.
 
 ```
 npm start
 ```
+
+</details>
+
+<br>
 
 #
 
