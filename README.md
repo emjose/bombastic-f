@@ -230,15 +230,19 @@ npm start
 
 -   lorem
 
+<a href=#domain-model>![Domain Model Chart](Assets/inter-domain.png)</a>
+
 #
 
 <p id="resources"><p>
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>
 
--   This project is made for educational purposes only.
-
--   Products and product images copyright of © [Bombas](https://bombas.com/). All Rights Reserved.
+-   []()
+-   []()
+-   []()
+-   []()
+-   []()
 
 #
 
