@@ -238,7 +238,7 @@ Would you like to run the app on another port instead? (Y/n)
 <br>
 
 <details>
-<summary>GIF demo: Product page carousel</summary>
+<summary><b>GIF demo: Product page carousel</b></summary>
 <br>
 
 <a href="https://youtu.be/qo_YDasFpkM">![Product page carousel](Assets/bombastic-2.gif)</a>
@@ -248,7 +248,7 @@ Would you like to run the app on another port instead? (Y/n)
 </details>
 
 <details>
-<summary>GIF demo: Reviewing and rating products</summary>
+<summary><b>GIF demo: Reviewing and rating products</b></summary>
 <br>
 
 <a href="https://youtu.be/qo_YDasFpkM">![Reviewing and rating products](Assets/bombastic-3.gif)</a>
@@ -258,7 +258,7 @@ Would you like to run the app on another port instead? (Y/n)
 </details>
 
 <details>
-<summary>GIF demo: Modifying cart</summary>
+<summary><b>GIF demo: Modifying cart</b></summary>
 <br>
 
 <a href="https://youtu.be/qo_YDasFpkM">![Modifying cart](Assets/bombastic-4.gif)</a>
@@ -268,7 +268,7 @@ Would you like to run the app on another port instead? (Y/n)
 </details>
 
 <details>
-<summary>GIF demo: Checkout and order history</summary>
+<summary><b>GIF demo: Checkout and order history</b></summary>
 <br>
 
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-5.gif)</a>
@@ -401,7 +401,7 @@ end
 
 <a href=#improvement>![Resources](Assets/inter-improvement.png)</a>
 
-**Further areas of improvement include:**
+**Areas of improvement include:**
 
 -   Enhancing my knowledge of [Semantic UI](https://semantic-ui.com/).
 
@@ -451,7 +451,7 @@ end
 
 <p id="lets-connect"><p>
 
-<a href=#table-of-contents>![Let's Connect](Assets/inter-lets-connect.png)</a>
+<a href=#lets-connect>![Let's Connect](Assets/inter-lets-connect.png)</a>
 
 <p><a href="https://twitter.com/Emmanuel_Labor"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"> <a href="https://www.linkedin.com/in/emmanuelpjose/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"> <a href="https://emmanueljose.medium.com/"><img src="https://img.shields.io/badge/medium-%238700f5.svg?&style=for-the-badge&logo=medium&logoColor=white" height=30 width=90 alt="Medium badge"> <a href="https://www.instagram.com/emmanuel_jose/"><img src="https://img.shields.io/badge/instagram-%23ff0077.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=30 width=90 alt="Instagram badge"> <a href="mailto:emjose@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"> <a href="https://www.youtube.com/channel/UCQdqFg-_J83jn9xJRd1W3tQ/videos"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=30 width=90 alt="Youtube badge"> <a href="https://github.com/emjose"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Youtube badge"></p>
 
