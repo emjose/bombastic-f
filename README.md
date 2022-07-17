@@ -235,12 +235,26 @@ Would you like to run the app on another port instead? (Y/n)
 
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-1.gif)</a>
 
+<br>
+
 <details>
 <summary>GIF demo: Viewing individual product page</summary>
 <br>
 
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-2.gif)</a>
 
+<br>
+
+</details>
+
+<details>
+<summary>GIF demo: Reviewing and rating products</summary>
+<br>
+
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-3.gif)</a>
+
+<br>
+
 </details>
 
 <details>
@@ -249,6 +263,8 @@ Would you like to run the app on another port instead? (Y/n)
 
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
+<br>
+
 </details>
 
 <details>
@@ -257,6 +273,8 @@ Would you like to run the app on another port instead? (Y/n)
 
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
+<br>
+
 </details>
 
 <details>
@@ -265,13 +283,7 @@ Would you like to run the app on another port instead? (Y/n)
 
 <a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
-</details>
-
-<details>
-<summary>GIF demo:</summary>
 <br>
-
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
 
 </details>
 
