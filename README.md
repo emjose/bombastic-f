@@ -233,15 +233,15 @@ Would you like to run the app on another port instead? (Y/n)
 
 **[Click for YouTube demo](https://youtu.be/qo_YDasFpkM)**
 
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-1.gif)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![Viewing Sock Products](Assets/bombastic-1.gif)</a>
 
 <br>
 
 <details>
-<summary>GIF demo: Viewing individual product page</summary>
+<summary>GIF demo: Product page carousel</summary>
 <br>
 
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-2.gif)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![Product page carousel](Assets/bombastic-2.gif)</a>
 
 <br>
 
@@ -251,37 +251,27 @@ Would you like to run the app on another port instead? (Y/n)
 <summary>GIF demo: Reviewing and rating products</summary>
 <br>
 
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-3.gif)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![Reviewing and rating products](Assets/bombastic-3.gif)</a>
 
 <br>
 
 </details>
 
 <details>
-<summary>GIF demo:</summary>
+<summary>GIF demo: Modifying cart</summary>
 <br>
 
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
-
-<br>
-
-</details>
-
-<details>
-<summary>GIF demo:</summary>
-<br>
-
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![Modifying cart](Assets/bombastic-4.gif)</a>
 
 <br>
 
 </details>
 
 <details>
-<summary>GIF demo:</summary>
+<summary>GIF demo: Checkout and order history</summary>
 <br>
 
-<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+<a href="https://youtu.be/qo_YDasFpkM">![GIF demo](Assets/bombastic-5.gif)</a>
 
 <br>
 
