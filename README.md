@@ -16,6 +16,7 @@
 -   [Installation](#installation)
 -   [Demo & Features](#demo-and-features)
 -   [Domain Model](#domain-model)
+-   [Improvement](#improvement)
 -   [Resources](#resources)
 -   [Copyright](#copyright)
 -   [Let's Connect!](#lets-connect)
@@ -32,7 +33,7 @@
 
 -   Bombastic implements the [Stripe API](https://stripe.com/docs/keys) for mock purchases.
 
--   **More README content to be added soon!**
+-   Bombastic was created in October and November of 2020 for my Flatiron School capstone project.
 
 #
 
@@ -337,15 +338,41 @@ end
 
 #
 
+<p id="improvement"><p>
+
+<a href=#improvement>![Resources](Assets/inter-improvement.png)</a>
+
+**Further areas of improvement include:**
+
+-   Enhancing my knowledge of [Semantic UI](https://semantic-ui.com/).
+
+-   Implement full responsiveness for mobile and desktop users.
+
+-   Applying filters for color and category.
+
+-   Optimize web performance and accessibility.
+
+-   Updating database to reflect Bombas's expanding apparel line.
+
+-   Possibly utilize a headless CMS to manage and scale a backend database.
+
+-   Determine successful hosting and deployment, as heroku is egregiously slow.
+
+#
+
 <p id="resources"><p>
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>
 
--   []()
--   []()
--   []()
--   []()
--   []()
+-   #### [Bombas](https://bombas.com/)
+-   #### [NPM](https://www.npmjs.com/)
+-   #### [Lucid.app](https://lucid.app/)
+-   #### [Adobe Fonts](https://fonts.adobe.com/)
+-   #### [Google Fonts](https://fonts.google.com/)
+-   #### [Screencastify](https://www.screencastify.com/)
+-   #### [Adobe Photoshop](https://www.adobe.com/creativecloud/buy/students.html)
+-   #### [Collapsible Markdown](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/markdown/collapsible-items.html)
+-   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
 #
 
