@@ -57,7 +57,7 @@
 
 <br>
 
-**Bombastic Frontend: [Repo](#technologies)**
+**Bombastic Frontend**
 
 -   [React.js](https://reactjs.org/)
 -   [Redux.js](https://redux.js.org/)
