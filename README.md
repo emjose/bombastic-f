@@ -2,7 +2,9 @@
 
 <!-- ![Bombastic](headers/inter-center-bombastic.png)  -->
 
-<a href=#table-of-contents>![Bombastic](Assets/inter-bombastic-frontend.png)</a>
+<a href=#bombastic>![Bombastic](Assets/inter-bombastic-frontend.png)</a>
+
+<a href=#bombastic>![Bombastic](Assets/preview-bombastic.png)</a>
 
 #
 
@@ -53,6 +55,8 @@
 -   [Active Model Serializers](https://github.com/rails-api/active_model_serializers)
 -   [Cloudinary image storage](https://cloudinary.com/)
 
+<br>
+
 **Bombastic Frontend: [Repo](https://github.com/emjose/bombastic-f/#technologies)**
 
 -   [React.js](https://reactjs.org/)
@@ -63,6 +67,8 @@
 -   [CSS3 Styling](https://www.tutorialrepublic.com/css-tutorial/)
 -   [React Stripe Checkout](https://www.npmjs.com/package/react-stripe-checkout)
 -   [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+
+<br>
 
 #
 
@@ -126,6 +132,8 @@ brew install postgresql
 <details>
 <summary><b>Click to expand - Backend Installation:</b></summary>
 <br>
+
+-   **[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
 
 -   **Git clone and cd into the folder.**
 
@@ -201,10 +209,16 @@ STRIPE_API_KEY = "insert your secret key here"
 npm install
 ```
 
--   **Launch the React app.** Enter "y" if prompted to launch in a different port.
+-   **Launch the React app.**
 
 ```
 npm start
+```
+
+-   **Enter "y" if prompted to run on another port.**
+
+```
+Would you like to run the app on another port instead? (Y/n)
 ```
 
 </details>
@@ -217,7 +231,49 @@ npm start
 
 <a href=#demo-and-features>![Demo and Features](Assets/inter-demo-and-features.png)</a>
 
-[YouTube video demo](https://youtu.be/qo_YDasFpkM)
+**[Click for YouTube demo](https://youtu.be/qo_YDasFpkM)**
+
+<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+
+<details>
+<summary>GIF demo:</summary>
+<br>
+
+<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+
+</details>
+
+<details>
+<summary>GIF demo:</summary>
+<br>
+
+<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+
+</details>
+
+<details>
+<summary>GIF demo:</summary>
+<br>
+
+<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+
+</details>
+
+<details>
+<summary>GIF demo:</summary>
+<br>
+
+<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+
+</details>
+
+<details>
+<summary>GIF demo:</summary>
+<br>
+
+<a href=#demo-and-features>![GIF demo](https://youtu.be/qo_YDasFpkM)</a>
+
+</details>
 
 #
 
@@ -229,9 +285,10 @@ npm start
 
 <br>
 
-**Models and Relationships**
+**Schema and Models**
 
-View [bombastic-b/app/models](https://github.com/emjose/bombastic-b/tree/main/app/models) or click each model below.
+-   View [schema](https://github.com/emjose/bombastic-b/blob/main/db/schema.rb).
+-   View [models](https://github.com/emjose/bombastic-b/tree/main/app/models) or click each model below.
 
 <details>
 <summary>CartJoiner</summary>
@@ -352,7 +409,11 @@ end
 
 -   Optimize web performance and accessibility.
 
+-   Converting all images to [WebP format](https://developers.google.com/speed/webp).
+
 -   Updating database to reflect Bombas's expanding apparel line.
+
+-   Debug disappearing products in main component after mock purchase.
 
 -   Possibly utilize a headless CMS to manage and scale a backend database.
 
