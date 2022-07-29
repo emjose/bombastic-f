@@ -94,19 +94,19 @@ brew install Ruby
 
 -   **[Rails](https://rubyonrails.org/)**
 
-```shell
+```bash
 gem install Rails
 ```
 
 -   **[Node.js](https://nodejs.org/en/download/)**
 
-```shell
+```bash
 npm install -g npm
 ```
 
 -   **[PostgreSQL](https://www.postgresql.org/)**
 
-```shell
+```bash
 brew install postgresql
 ```
 
