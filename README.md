@@ -82,31 +82,31 @@
 
 -   **[Homebrew](https://brew.sh/)**
 
-```shell
+```console
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 -   **[Ruby](https://www.ruby-lang.org/en/)**
 
-```shell
+```console
 brew install Ruby
 ```
 
 -   **[Rails](https://rubyonrails.org/)**
 
-```bash
+```console
 gem install Rails
 ```
 
 -   **[Node.js](https://nodejs.org/en/download/)**
 
-```bash
+```console
 npm install -g npm
 ```
 
 -   **[PostgreSQL](https://www.postgresql.org/)**
 
-```bash
+```console
 brew install postgresql
 ```
 
@@ -137,7 +137,7 @@ brew install postgresql
 
 -   **Git clone and cd into the folder.**
 
-```
+```console
 git clone git@github.com:emjose/bombastic-b.git && cd bombastic-b
 ```
 
@@ -147,19 +147,19 @@ git clone git@github.com:emjose/bombastic-b.git && cd bombastic-b
 
 -   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
 
-```
+```properties
 STRIPE_API_KEY = "insert your secret key here"
 ```
 
 -   **Install dependencies.**
 
-```
+```console
 bundle install
 ```
 
 -   **Create Rails database, migrations, and seed data.**
 
-```
+```console
 rails db:create
 rails db:migrate
 rails db:seed
@@ -167,7 +167,7 @@ rails db:seed
 
 -   **Launch the Rails server. Best viewed on Chrome browser.**
 
-```
+```console
 rails s -p 3000
 ```
 
@@ -191,7 +191,7 @@ rails s -p 3000
 
 -   **Git clone and cd into the folder.**
 
-```
+```console
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 ```
 
@@ -201,25 +201,25 @@ git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 
 -   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
 
-```
+```properties
 STRIPE_API_KEY = "insert your secret key here"
 ```
 
 -   **Install dependencies.**
 
-```
+```console
 npm install
 ```
 
 -   **Launch the React app.**
 
-```
+```console
 npm start
 ```
 
 -   **Enter "y" if prompted to run on another port.**
 
-```
+```console
 Would you like to run the app on another port instead? (Y/n)
 ```
 
@@ -298,7 +298,7 @@ Would you like to run the app on another port instead? (Y/n)
 <summary>CartJoiner</summary>
 <br>
 
-```
+```ruby
 class CartJoiner < ApplicationRecord
   belongs_to :cart
   belongs_to :item
@@ -311,7 +311,7 @@ end
 <summary>Cart</summary>
 <br>
 
-```
+```ruby
 class Cart < ApplicationRecord
   belongs_to :user
   has_many :cart_joiners, dependent: :destroy
@@ -325,7 +325,7 @@ end
 <summary>Item</summary>
 <br>
 
-```
+```ruby
 class Item < ApplicationRecord
     has_many :reviews, dependent: :destroy
     has_many :users, through: :reviews
@@ -342,7 +342,7 @@ end
 <summary>OrderJoiner</summary>
 <br>
 
-```
+```ruby
 class OrderJoiner < ApplicationRecord
   belongs_to :order
   belongs_to :item
@@ -355,7 +355,7 @@ end
 <summary>Order</summary>
 <br>
 
-```
+```ruby
 class Order < ApplicationRecord
   belongs_to :user
   has_many :order_joiners, dependent: :destroy
@@ -369,7 +369,7 @@ end
 <summary>Review</summary>
 <br>
 
-```
+```ruby
 class Review < ApplicationRecord
   belongs_to :user
   belongs_to :item
@@ -382,7 +382,7 @@ end
 <summary>User</summary>
 <br>
 
-```
+```ruby
 class User < ApplicationRecord
     has_secure_password
 
