@@ -82,31 +82,31 @@
 
 -   **[Homebrew](https://brew.sh/)**
 
-```
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 -   **[Ruby](https://www.ruby-lang.org/en/)**
 
-```
+```shell
 brew install Ruby
 ```
 
 -   **[Rails](https://rubyonrails.org/)**
 
-```
+```shell
 gem install Rails
 ```
 
 -   **[Node.js](https://nodejs.org/en/download/)**
 
-```
+```shell
 npm install -g npm
 ```
 
 -   **[PostgreSQL](https://www.postgresql.org/)**
 
-```
+```shell
 brew install postgresql
 ```
 
