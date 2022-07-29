@@ -287,7 +287,7 @@ Would you like to run the app on another port instead? (Y/n)
 
 <a href=#er-diagram>![Domain Model Chart](Assets/inter-domain.png)</a>
 
-**Click below to expand diagram or table.**
+<a href=#er-diagram>![Click below to expand diagram or table](Assets/inter-expand.png)</a>
 
 <details>
 <summary>Entity-Relationship Diagram</summary>
