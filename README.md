@@ -1,8 +1,6 @@
 <p id="bombastic"><p>
 
-<!-- ![Bombastic](headers/inter-center-bombastic.png)  -->
-
-<a href=#bombastic>![Bombastic](Assets/inter-bombastic-frontend.png)</a>
+<a href=#bombastic>![Bombastic](https://res.cloudinary.com/dn1e07eul/image/upload/v1659385429/Readme%20Headers/inter-bombastic-frontend_lebzbn.png)</a>
 
 <a href=#bombastic>![Bombastic](Assets/preview-bombastic.png)</a>
 
@@ -10,7 +8,7 @@
 
 <p id="table-of-contents"><p>
 
-<a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>
+<a href=#table-of-contents>![Table of Contents](https://res.cloudinary.com/dn1e07eul/image/upload/v1659241355/Readme%20Headers/inter-toc_euxbbw.png)</a>
 
 -   [Background](#background)
 -   [Technologies](#technologies)
@@ -27,7 +25,7 @@
 
 <p id="background"><p>
 
-<a href=#background>![Background](Assets/inter-background.png)</a>
+<a href=#background>![Background](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389901/Readme%20Headers/inter-background_klgbyq.png)</a>
 
 -   **[Bombastic](https://youtu.be/qo_YDasFpkM)** is a mock e-commerce app inspired by the **[Bombas](https://bombas.com/)** sock apparel brand.
 
@@ -41,7 +39,7 @@
 
 <p id="technologies"><p>
 
-<a href=#technologies>![Technologies](Assets/inter-technologies.png)</a>
+<a href=#technologies>![Technologies](https://res.cloudinary.com/dn1e07eul/image/upload/v1659393452/Readme%20Headers/inter-technologies_gujhow.png)</a>
 
 **Bombastic Backend: [Repo](https://github.com/emjose/bombastic-b/#bombastic)**
 
@@ -74,7 +72,7 @@
 
 <p id="prerequisites"><p>
 
-<a href=#prerequisites>![Prerequisites](Assets/inter-prerequisites.png)</a>
+<a href=#prerequisites>![Prerequisites](https://res.cloudinary.com/dn1e07eul/image/upload/v1659393532/Readme%20Headers/inter-prerequisites_tryyko.png)</a>
 
 <details>
 <summary><b>Click to expand - Ensure you have the latest versions of the following:</b></summary>
@@ -127,7 +125,7 @@ brew install postgresql
 
 <p id="installation"><p>
 
-<a href=#installation>![Installation](Assets/inter-installation.png)</a>
+<a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
 
 <details>
 <summary><b>Click to expand - Backend Installation:</b></summary>
@@ -231,7 +229,7 @@ Would you like to run the app on another port instead? (Y/n)
 
 <p id="demo-and-features"><p>
 
-<a href=#demo-and-features>![Demo and Features](Assets/inter-demo-and-features.png)</a>
+<a href=#demo-and-features>![Demo and Features](https://res.cloudinary.com/dn1e07eul/image/upload/v1659393631/Readme%20Headers/inter-demo-and-features_hb5k8y.png)</a>
 
 **[Click for YouTube demo](https://youtu.be/qo_YDasFpkM)**
 
@@ -283,11 +281,12 @@ Would you like to run the app on another port instead? (Y/n)
 
 <p id="er-diagram"><p>
 
-<a href=#er-diagram>![ER Diagram](Assets/inter-er-diagram.png)</a>
+<a href=#er-diagram>![ER Diagram](https://res.cloudinary.com/dn1e07eul/image/upload/v1659393683/Readme%20Headers/inter-er-diagram_m5zgro.png)</a>
 
 <a href=#er-diagram>![Domain Model Chart](Assets/inter-domain.png)</a>
+<sup>© [Lucid.app](https://lucid.app/)</sup>
 
-<a href=#er-diagram>![Click below to expand diagram or table](Assets/inter-expand.png)</a>
+<a href=#er-diagram>![Click below to expand diagram or table](https://res.cloudinary.com/dn1e07eul/image/upload/v1659393736/Readme%20Headers/inter-expand_knzggw.png)</a>
 
 <details>
 <summary>Entity-Relationship Diagram</summary>
@@ -410,7 +409,7 @@ end
 
 <p id="improvement"><p>
 
-<a href=#improvement>![Resources](Assets/inter-improvement.png)</a>
+<a href=#improvement>![Improvement](https://res.cloudinary.com/dn1e07eul/image/upload/v1659393807/Readme%20Headers/inter-improvement_f38dsq.png)</a>
 
 **Areas of improvement include:**
 
@@ -436,7 +435,7 @@ end
 
 <p id="resources"><p>
 
-<a href=#resources>![Resources](Assets/inter-resources.png)</a>
+<a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
 -   #### [Bombas](https://bombas.com/)
 -   #### [NPM](https://www.npmjs.com/)
@@ -453,7 +452,7 @@ end
 
 <p id="copyright"><p>
 
-<a href=#copyright>![Copyright](Assets/inter-copyright.png)</a>
+<a href=#copyright>![Copyright](https://res.cloudinary.com/dn1e07eul/image/upload/v1659391383/Readme%20Headers/inter-copyright_ax53yz.png)</a>
 
 -   This project is made for educational purposes only.
 
@@ -463,13 +462,13 @@ end
 
 <p id="lets-connect"><p>
 
-<a href=#lets-connect>![Let's Connect](Assets/inter-lets-connect.png)</a>
+<a href=#lets-connect>![Let's Connect](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314257/Readme%20Headers/inter-lets-connect_bv3kcd.png)</a>
 
-<p><a href="https://twitter.com/Emmanuel_Labor"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"> <a href="https://www.linkedin.com/in/emmanuelpjose/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"> <a href="https://emmanueljose.medium.com/"><img src="https://img.shields.io/badge/medium-%238700f5.svg?&style=for-the-badge&logo=medium&logoColor=white" height=30 width=90 alt="Medium badge"> <a href="https://www.instagram.com/emmanuel_jose/"><img src="https://img.shields.io/badge/instagram-%23ff0077.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=30 width=90 alt="Instagram badge"> <a href="mailto:emjose@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"> <a href="https://www.emmanuel-jose.com/"><img src="https://img.shields.io/badge/portfolio-%23FF0000.svg?&style=for-the-badge&logoColor=white" height=30 width=90 alt="Portfolio badge"> <a href="https://github.com/emjose"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Github badge"></p>
+<p><a href="https://twitter.com/Emmanuel_Labor"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"></a> <a href="https://www.linkedin.com/in/emmanuelpjose/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"></a> <a href="https://emmanueljose.medium.com/"><img src="https://img.shields.io/badge/medium-%238700f5.svg?&style=for-the-badge&logo=medium&logoColor=white" height=30 width=90 alt="Medium badge"></a> <a href="https://www.instagram.com/emmanuel_jose/"><img src="https://img.shields.io/badge/instagram-%23ff0077.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=30 width=90 alt="Instagram badge"></a> <a href="mailto:emjose@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"></a> <a href="https://www.emmanuel-jose.com/"><img src="https://img.shields.io/badge/portfolio-%23FF0000.svg?&style=for-the-badge&logoColor=white" height=30 width=90 alt="Portfolio badge"></a> <a href="https://github.com/emjose"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Github badge"></a></p>
 
 #
 
-<a href=#bombastic>![Back to Top](Assets/inter-congrats.png)</a>
+<a href=#bombastic>![Back to Top](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314281/Readme%20Headers/inter-congrats_m4p3ck.png)</a>
 
 <!-- # Getting Started with Create React App
 
