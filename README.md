@@ -131,7 +131,8 @@ brew install postgresql
 <summary><b>Click to expand - Backend Installation:</b></summary>
 <br>
 
--   **[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
+**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
+<br>
 
 -   **Git clone and cd into the folder.**
 
@@ -139,21 +140,38 @@ brew install postgresql
 git clone git@github.com:emjose/bombastic-b.git && cd bombastic-b
 ```
 
+<br>
+
 -   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
 
+    -   Use the **Secret**, server-side API key.
+    -   The **Secret API key** has a prefix of **`sk_test`**.
+
+    <br>
+
 -   **Create an `.env` file in the main project directory.**
+
+```
+mkdir .env
+```
+
+<br>
 
 -   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
 
 ```properties
-STRIPE_API_KEY = "insert your secret key here"
+STRIPE_API_KEY = "paste your Secret API key between the quotes"
 ```
+
+<br>
 
 -   **Install dependencies.**
 
 ```console
 bundle install
 ```
+
+<br>
 
 -   **Create Rails database, migrations, and seed data.**
 
@@ -163,11 +181,15 @@ rails db:migrate
 rails db:seed
 ```
 
+<br>
+
 -   **Launch the Rails server. Best viewed on Chrome browser.**
 
 ```console
 rails s -p 3000
 ```
+
+<br>
 
 -   **On Chrome browser, view the JSON database locally at http://localhost:3000/items**
 
@@ -193,15 +215,30 @@ rails s -p 3000
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 ```
 
+<br>
+
 -   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
+
+    -   Use the **Publishable**, client-side API key.
+    -   The **Publishable API key** has a prefix of **`pk_test`**.
+
+    <br>
 
 -   **Create an `.env` file in the main project directory.**
 
--   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
+```
+mkdir .env
+```
+
+<br>
+
+-   **Paste this variable in the `.env` file. Assign it the value of your Stripe Publishable API key.**
 
 ```properties
-STRIPE_API_KEY = "insert your secret key here"
+REACT_APP_STRIPE_API_KEY = "paste your Publishable API key between the quotes"
 ```
+
+<br>
 
 -   **Install dependencies.**
 
@@ -209,11 +246,15 @@ STRIPE_API_KEY = "insert your secret key here"
 npm install
 ```
 
+<br>
+
 -   **Launch the React app.**
 
 ```console
 npm start
 ```
+
+<br>
 
 -   **Enter "y" if prompted to run on another port.**
 
