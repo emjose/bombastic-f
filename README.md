@@ -131,8 +131,7 @@ brew install postgresql
 <summary><b>Click to expand - Backend Installation:</b></summary>
 <br>
 
-**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
-<br>
+-   **[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
 
 -   **Git clone and cd into the folder.**
 
@@ -157,7 +156,7 @@ mkdir .env
 
 <br>
 
--   **Paste this variable in the `.env` file. Assign it the value of your Stripe API key.**
+-   **Paste this variable in the `.env` file. Assign it the value of your Stripe Secret API key.**
 
 ```properties
 STRIPE_API_KEY = "paste your Secret API key between the quotes"
