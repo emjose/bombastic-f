@@ -130,6 +130,7 @@ brew install postgresql
 <details>
 <summary><b>Click to expand - Backend Installation:</b></summary>
 <br>
+<br>
 
 **[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
 
@@ -206,6 +207,7 @@ rails s -p 3000
 
 <details>
 <summary><b>Click to expand - Frontend Installation:</b></summary>
+<br>
 <br>
 
 **Follow all Backend Installation steps above.**
