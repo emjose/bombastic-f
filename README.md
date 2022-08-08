@@ -131,9 +131,9 @@ brew install postgresql
 <summary><b>Click to expand - Backend Installation:</b></summary>
 <br>
 
--   **[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
+**[Bombastic Backend Repo](https://github.com/emjose/bombastic-b/#bombastic)**
 
--   **Git clone and cd into the folder.**
+**1. Git clone and cd into the folder.**
 
 ```console
 git clone git@github.com:emjose/bombastic-b.git && cd bombastic-b
@@ -141,14 +141,14 @@ git clone git@github.com:emjose/bombastic-b.git && cd bombastic-b
 
 <br>
 
--   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
+**2. Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
 
-    -   Use the **Secret**, server-side API key.
-    -   The **Secret API key** has a prefix of **`sk_test`**.
+-   Use the **Secret**, server-side API key.
+-   The **Secret API key** has a prefix of **`sk_test`**.
 
-    <br>
+<br>
 
--   **Create an `.env` file in the main project directory.**
+**3. Create an `.env` file in the main project directory.**
 
 ```
 mkdir .env
@@ -156,7 +156,7 @@ mkdir .env
 
 <br>
 
--   **Paste this variable in the `.env` file. Assign it the value of your Stripe Secret API key.**
+**4. Paste this variable in the `.env` file. Assign it the value of your Stripe Secret API key.**
 
 ```properties
 STRIPE_API_KEY = "paste your Secret API key between the quotes"
@@ -164,7 +164,7 @@ STRIPE_API_KEY = "paste your Secret API key between the quotes"
 
 <br>
 
--   **Install dependencies.**
+**5. Install dependencies.**
 
 ```console
 bundle install
@@ -172,7 +172,7 @@ bundle install
 
 <br>
 
--   **Create Rails database, migrations, and seed data.**
+**6. Create Rails database, migrations, and seed data.**
 
 ```console
 rails db:create
@@ -182,7 +182,7 @@ rails db:seed
 
 <br>
 
--   **Launch the Rails server. Best viewed on Chrome browser.**
+**7. Launch the Rails server. Best viewed on Chrome browser.**
 
 ```console
 rails s -p 3000
@@ -190,9 +190,11 @@ rails s -p 3000
 
 <br>
 
--   **On Chrome browser, view the JSON database locally at http://localhost:3000/items**
+**8. On Chrome browser, view the JSON database locally at http://localhost:3000/items**
 
--   **Follow all Frontend Installation steps below.**
+<br>
+
+**Follow all Frontend Installation steps below.**
 
 <br>
 
@@ -206,9 +208,11 @@ rails s -p 3000
 <summary><b>Click to expand - Frontend Installation:</b></summary>
 <br>
 
--   **Follow all Backend Installation steps above.**
+**Follow all Backend Installation steps above.**
 
--   **Git clone and cd into the folder.**
+<br>
+
+**9. Git clone and cd into the folder.**
 
 ```console
 git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
@@ -216,14 +220,14 @@ git clone git@github.com:emjose/bombastic-f.git && cd bombastic-f
 
 <br>
 
--   **Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
+**10. Retrieve your [Stripe API key](https://stripe.com/docs/keys).**
 
-    -   Use the **Publishable**, client-side API key.
-    -   The **Publishable API key** has a prefix of **`pk_test`**.
+-   Use the **Publishable**, client-side API key.
+-   The **Publishable API key** has a prefix of **`pk_test`**.
 
-    <br>
+<br>
 
--   **Create an `.env` file in the main project directory.**
+**11. Create an `.env` file in the main project directory.**
 
 ```
 mkdir .env
@@ -231,7 +235,7 @@ mkdir .env
 
 <br>
 
--   **Paste this variable in the `.env` file. Assign it the value of your Stripe Publishable API key.**
+**12. Paste this variable in the `.env` file. Assign it the value of your Stripe Publishable API key.**
 
 ```properties
 REACT_APP_STRIPE_API_KEY = "paste your Publishable API key between the quotes"
@@ -239,7 +243,7 @@ REACT_APP_STRIPE_API_KEY = "paste your Publishable API key between the quotes"
 
 <br>
 
--   **Install dependencies.**
+**13.Install dependencies.**
 
 ```console
 npm install
@@ -247,7 +251,7 @@ npm install
 
 <br>
 
--   **Launch the React app.**
+**14. Launch the React app.**
 
 ```console
 npm start
@@ -255,7 +259,7 @@ npm start
 
 <br>
 
--   **Enter "y" if prompted to run on another port.**
+**15. Enter "y" if prompted to run on another port.**
 
 ```console
 Would you like to run the app on another port instead? (Y/n)
