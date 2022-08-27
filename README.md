@@ -21,6 +21,8 @@
 -   [Copyright](#copyright)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="background"><p>
@@ -34,6 +36,8 @@
 -   Bombastic implements the **[Stripe API](https://stripe.com/docs/keys)** for mock credit card purchases.
 
 -   Bombastic was created in October and November of 2020 for my Flatiron School capstone project.
+
+<br>
 
 #
 
@@ -325,6 +329,8 @@ Would you like to run the app on another port instead? (Y/n)
 
 </details>
 
+<br>
+
 #
 
 <p id="er-diagram"><p>
@@ -453,6 +459,8 @@ end
 
 </details>
 
+<br>
+
 #
 
 <p id="improvement"><p>
@@ -479,6 +487,8 @@ end
 
 -   Determine successful hosting and deployment, as heroku is egregiously slow.
 
+<br>
+
 #
 
 <p id="resources"><p>
@@ -496,6 +506,8 @@ end
 -   #### [Collapsible Markdown](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/markdown/collapsible-items.html)
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
+<br>
+
 #
 
 <p id="copyright"><p>
@@ -505,6 +517,8 @@ end
 -   This project is made for educational purposes only.
 
 -   Products and product images copyright of © [Bombas](https://bombas.com/). All Rights Reserved.
+
+<br>
 
 #
 
